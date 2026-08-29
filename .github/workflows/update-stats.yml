@@ -1,0 +1,38 @@
+name: Update dashboard stats
+
+on:
+  schedule:
+    - cron: "0 13 * * *" # 13:00 UTC daily (~7am MST / 6am MST during DST offset varies)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install script dependencies
+        working-directory: scripts
+        run: npm ci
+
+      - name: Fetch latest stats from MongoDB
+        working-directory: scripts
+        env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
+        run: npm run fetch-stats
+
+      - name: Commit updated stats.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/stats.json
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update dashboard stats"
+          git push

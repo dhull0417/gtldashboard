@@ -1,0 +1,12 @@
+{
+  "name": "gtldashboard-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Data pipeline for the GroupThat leadership dashboard. Runs on a schedule via GitHub Actions, not in the browser.",
+  "scripts": {
+    "fetch-stats": "node fetch-stats.mjs"
+  },
+  "dependencies": {
+    "mongodb": "^6.10.0"
+  }
+}

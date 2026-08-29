@@ -28,7 +28,7 @@ export default function PasswordGate({ onUnlock }) {
   return (
     <div id="gate">
       <div className="gate-card">
-        <img src={`${import.meta.env.BASE_URL}assets/logo.jpg`} alt="GroupThat" />
+        <img src={`${import.meta.env.BASE_URL}assets/favicon.png`} alt="GroupThat" />
         <div style={{ color: "var(--text-secondary)", fontSize: 14 }}>
           Enter password to view the dashboard
         </div>

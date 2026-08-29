@@ -13,7 +13,7 @@ export default function Dashboard({ allDays }) {
   return (
     <div id="app">
       <header className="site-header">
-        <img className="logo" src={`${import.meta.env.BASE_URL}assets/logo.jpg`} alt="GroupThat" />
+        <img className="logo" src={`${import.meta.env.BASE_URL}assets/favicon.png`} alt="GroupThat" />
         <span className="title">Leadership Dashboard</span>
       </header>
 

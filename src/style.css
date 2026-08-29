@@ -84,7 +84,7 @@ body {
 }
 
 .gate-card img {
-  height: 32px;
+  height: 128px;
   margin-bottom: 20px;
 }
 
@@ -130,7 +130,7 @@ header.site-header {
 }
 
 header.site-header img.logo {
-  height: 28px;
+  height: 112px;
 }
 
 header.site-header .title {

@@ -4,7 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const STATS_PATH = path.join(__dirname, "..", "docs", "data", "stats.json");
+const STATS_PATH = path.join(__dirname, "..", "public", "data", "stats.json");
 
 const COLLECTIONS = {
   users: "users",

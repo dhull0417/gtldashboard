@@ -5,7 +5,7 @@
 // PASSWORD_HASH below, e.g. in a browser console:
 //   crypto.subtle.digest("SHA-256", new TextEncoder().encode("your-password"))
 //     .then(b => console.log([...new Uint8Array(b)].map(x => x.toString(16).padStart(2, "0")).join("")))
-const PASSWORD_HASH = "d8db1b968a8343f9c6f1301629ebffefb6d44bb349ef557682b622bddf80a6aa";
+const PASSWORD_HASH = "c9f96fd234c16cc2df9eb97b40598dabd3368c81eed1929f6d80562ffc895ee1";
 const SESSION_KEY = "gtl-dashboard-unlocked";
 
 async function sha256Hex(text) {

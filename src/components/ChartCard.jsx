@@ -61,7 +61,10 @@ export default function ChartCard({ metricKey, label, color, days, prevDays = []
           <span className="chart-total">{total.toLocaleString()}</span>
         </div>
         {showDelta && (
-          <span className={`chart-delta ${deltaClass}`}>
+          <span
+            className={`chart-delta ${deltaClass}`}
+            title={`vs. prior ${prevDays.length} day${prevDays.length === 1 ? "" : "s"}`}
+          >
             {delta.toLocaleString(undefined, { signDisplay: "exceptZero" })}
           </span>
         )}

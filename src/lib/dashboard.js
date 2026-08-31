@@ -15,7 +15,12 @@ export function filterByRange(days, range) {
 export function previousRangeDays(days, range) {
   const n = RANGE_DAYS[range];
   if (!Number.isFinite(n)) return [];
-  return days.slice(-2 * n, -n);
+  // Compares against whatever history exists before the current window, even if
+  // that's fewer than n days (e.g. early on, before a full prior period has
+  // accumulated) — so the delta badge works from day one instead of needing
+  // 2x the range's worth of history before it can show anything.
+  const windowStart = Math.max(days.length - n, 0);
+  return days.slice(Math.max(windowStart - n, 0), windowStart);
 }
 
 export function niceMax(max) {

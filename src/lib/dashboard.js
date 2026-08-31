@@ -12,6 +12,12 @@ export function filterByRange(days, range) {
   return days.slice(-n);
 }
 
+export function previousRangeDays(days, range) {
+  const n = RANGE_DAYS[range];
+  if (!Number.isFinite(n)) return [];
+  return days.slice(-2 * n, -n);
+}
+
 export function niceMax(max) {
   if (max <= 0) return 1;
   const magnitude = 10 ** Math.floor(Math.log10(max));

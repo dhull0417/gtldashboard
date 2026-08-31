@@ -5,22 +5,33 @@ const WIDTH = 960;
 const HEIGHT = 180;
 const PAD_TOP = 12;
 const PAD_BOTTOM = 24;
-const PAD_X = 8;
+const PAD_LEFT = 44;
+const PAD_RIGHT = 8;
 
-export default function ChartCard({ metricKey, label, color, days }) {
+export default function ChartCard({ metricKey, label, color, days, prevDays = [] }) {
   const svgRef = useRef(null);
   const [hoverIndex, setHoverIndex] = useState(null);
 
-  const values = days.map((d) => d[metricKey]);
-  const total = values.reduce((a, b) => a + b, 0);
-  const max = niceMax(Math.max(...values, 0));
+  let running = 0;
+  const cumulative = days.map((d) => (running += d[metricKey]));
+  const total = cumulative[cumulative.length - 1] ?? 0;
+  const max = niceMax(Math.max(...cumulative, 0));
+
+  const showDelta = prevDays.length > 0;
+  const prevTotal = showDelta ? prevDays.reduce((sum, d) => sum + d[metricKey], 0) : 0;
+  const delta = total - prevTotal;
+  const deltaClass = delta > 0 ? "positive" : delta < 0 ? "negative" : "neutral";
 
   const xFor = (i) =>
-    days.length <= 1 ? WIDTH / 2 : PAD_X + (i / (days.length - 1)) * (WIDTH - PAD_X * 2);
+    days.length <= 1
+      ? (PAD_LEFT + WIDTH - PAD_RIGHT) / 2
+      : PAD_LEFT + (i / (days.length - 1)) * (WIDTH - PAD_LEFT - PAD_RIGHT);
   const yFor = (v) => PAD_TOP + (1 - v / max) * (HEIGHT - PAD_TOP - PAD_BOTTOM);
 
-  const linePoints = days.map((d, i) => `${xFor(i)},${yFor(d[metricKey])}`).join(" ");
-  const gridY = [0, 0.5, 1].map((t) => PAD_TOP + t * (HEIGHT - PAD_TOP - PAD_BOTTOM));
+  const linePoints = days.map((d, i) => `${xFor(i)},${yFor(cumulative[i])}`).join(" ");
+  const gridStops = [0, 0.5, 1];
+  const gridY = gridStops.map((t) => PAD_TOP + t * (HEIGHT - PAD_TOP - PAD_BOTTOM));
+  const gridValues = gridStops.map((t) => max * (1 - t));
 
   function onMove(evt) {
     const rect = svgRef.current.getBoundingClientRect();
@@ -39,24 +50,37 @@ export default function ChartCard({ metricKey, label, color, days }) {
 
   const hover = hoverIndex != null ? days[hoverIndex] : null;
   const hoverX = hoverIndex != null ? xFor(hoverIndex) : 0;
-  const hoverY = hover ? yFor(hover[metricKey]) : 0;
+  const hoverY = hover ? yFor(cumulative[hoverIndex]) : 0;
+  const hoverChange = hover ? hover[metricKey] : 0;
 
   return (
     <section className="chart-card">
       <div className="chart-head">
-        <span className="chart-title">{label}</span>
-        <span className="chart-total">{total.toLocaleString()}</span>
+        <div className="chart-head-main">
+          <span className="chart-title">{label}</span>
+          <span className="chart-total">{total.toLocaleString()}</span>
+        </div>
+        {showDelta && (
+          <span className={`chart-delta ${deltaClass}`}>
+            {delta.toLocaleString(undefined, { signDisplay: "exceptZero" })}
+          </span>
+        )}
       </div>
       <div className="chart-wrap" onPointerMove={onMove} onPointerLeave={() => setHoverIndex(null)}>
         <svg ref={svgRef} viewBox={`0 0 ${WIDTH} ${HEIGHT}`} preserveAspectRatio="none">
           {gridY.map((y, i) => (
-            <line key={i} className="gridline" x1={PAD_X} y1={y} x2={WIDTH - PAD_X} y2={y} />
+            <line key={i} className="gridline" x1={PAD_LEFT} y1={y} x2={WIDTH - PAD_RIGHT} y2={y} />
+          ))}
+          {gridY.map((y, i) => (
+            <text key={i} className="axis-value" x={PAD_LEFT - 8} y={y} dy="0.32em" textAnchor="end">
+              {Math.round(gridValues[i]).toLocaleString()}
+            </text>
           ))}
           <line
             className="baseline"
-            x1={PAD_X}
+            x1={PAD_LEFT}
             y1={HEIGHT - PAD_BOTTOM}
-            x2={WIDTH - PAD_X}
+            x2={WIDTH - PAD_RIGHT}
             y2={HEIGHT - PAD_BOTTOM}
           />
           <polyline
@@ -85,10 +109,10 @@ export default function ChartCard({ metricKey, label, color, days }) {
             strokeWidth="2"
             style={{ opacity: hover ? 1 : 0 }}
           />
-          <text className="axis-label" x={PAD_X} y={HEIGHT - 6} textAnchor="start">
+          <text className="axis-label" x={PAD_LEFT} y={HEIGHT - 6} textAnchor="start">
             {days[0]?.date ?? ""}
           </text>
-          <text className="axis-label" x={WIDTH - PAD_X} y={HEIGHT - 6} textAnchor="end">
+          <text className="axis-label" x={WIDTH - PAD_RIGHT} y={HEIGHT - 6} textAnchor="end">
             {days[days.length - 1]?.date ?? ""}
           </text>
         </svg>
@@ -97,9 +121,13 @@ export default function ChartCard({ metricKey, label, color, days }) {
             className="tooltip"
             style={{ opacity: 1, left: `${(hoverX / WIDTH) * 100}%`, top: `${(hoverY / HEIGHT) * 100}%` }}
           >
-            <strong>{hover[metricKey].toLocaleString()}</strong>
+            <strong>{cumulative[hoverIndex].toLocaleString()}</strong>
             <br />
             <span>{hover.date}</span>
+            <br />
+            <span className="tooltip-change">
+              {hoverChange.toLocaleString(undefined, { signDisplay: "exceptZero" })} that day
+            </span>
           </div>
         )}
       </div>

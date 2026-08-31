@@ -2,13 +2,14 @@ import { useState } from "react";
 import RangeRow from "./RangeRow.jsx";
 import ChartCard from "./ChartCard.jsx";
 import TableView from "./TableView.jsx";
-import { METRICS, filterByRange } from "../lib/dashboard.js";
+import { METRICS, filterByRange, previousRangeDays } from "../lib/dashboard.js";
 
 export default function Dashboard({ allDays }) {
   const [range, setRange] = useState("30d");
   const [showTable, setShowTable] = useState(false);
 
   const days = filterByRange(allDays, range);
+  const prevDays = previousRangeDays(allDays, range);
 
   return (
     <div id="app">
@@ -22,7 +23,7 @@ export default function Dashboard({ allDays }) {
 
         <div className="chart-grid">
           {METRICS.map(({ key, label, color }) => (
-            <ChartCard key={key} metricKey={key} label={label} color={color} days={days} />
+            <ChartCard key={key} metricKey={key} label={label} color={color} days={days} prevDays={prevDays} />
           ))}
         </div>
 

@@ -15,6 +15,9 @@
   --series-users: #2a78d6;
   --series-groups: #eb6834;
   --series-meetups: #1baf7a;
+
+  --positive: #1baf7a;
+  --negative: #d9483f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,6 +35,9 @@
     --series-users: #3987e5;
     --series-groups: #d95926;
     --series-meetups: #199e70;
+
+    --positive: #199e70;
+    --negative: #e5584c;
   }
 }
 
@@ -49,6 +55,9 @@
   --series-users: #3987e5;
   --series-groups: #d95926;
   --series-meetups: #199e70;
+
+  --positive: #199e70;
+  --negative: #e5584c;
 }
 
 * {
@@ -190,8 +199,15 @@ main {
 .chart-card .chart-head {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
   gap: 12px;
   margin-bottom: 4px;
+}
+
+.chart-card .chart-head-main {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
 }
 
 .chart-card .chart-title {
@@ -204,6 +220,30 @@ main {
   font-size: 28px;
   font-weight: 600;
   font-variant-numeric: proportional-nums;
+}
+
+.chart-delta {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.chart-delta.positive {
+  color: var(--positive);
+  background: color-mix(in srgb, var(--positive) 14%, transparent);
+}
+
+.chart-delta.negative {
+  color: var(--negative);
+  background: color-mix(in srgb, var(--negative) 14%, transparent);
+}
+
+.chart-delta.neutral {
+  color: var(--text-muted);
+  background: color-mix(in srgb, var(--text-muted) 14%, transparent);
 }
 
 .chart-card svg {
@@ -226,6 +266,11 @@ main {
 .axis-label {
   fill: var(--text-muted);
   font-size: 11px;
+}
+
+.axis-value {
+  fill: var(--text-muted);
+  font-size: 10px;
 }
 
 .crosshair {
@@ -255,6 +300,10 @@ main {
 .tooltip strong {
   color: var(--text-primary);
   font-size: 13px;
+}
+
+.tooltip-change {
+  color: var(--text-muted);
 }
 
 .chart-wrap {

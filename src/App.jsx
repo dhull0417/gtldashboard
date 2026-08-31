@@ -8,6 +8,7 @@ export default function App() {
   const [unlocked, setUnlocked] = useState(() => sessionStorage.getItem(SESSION_KEY) === "1");
   const [allDays, setAllDays] = useState(null);
   const [insights, setInsights] = useState(null);
+  const [directory, setDirectory] = useState(null);
 
   useEffect(() => {
     if (!unlocked) return;
@@ -18,6 +19,10 @@ export default function App() {
       .then((res) => (res.ok ? res.json() : null))
       .then(setInsights)
       .catch(() => setInsights(null));
+    fetch(`${import.meta.env.BASE_URL}data/directory.json`, { cache: "no-store" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then(setDirectory)
+      .catch(() => setDirectory(null));
   }, [unlocked]);
 
   function handleUnlock() {
@@ -27,5 +32,5 @@ export default function App() {
 
   if (!unlocked) return <PasswordGate onUnlock={handleUnlock} />;
   if (!allDays) return null;
-  return <Dashboard allDays={allDays} insights={insights} />;
+  return <Dashboard allDays={allDays} insights={insights} directory={directory} />;
 }

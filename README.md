@@ -1,8 +1,16 @@
 # GroupThat Leadership Dashboard
 
-A React (Vite) dashboard showing new users, new groups, and new meetups over
-time, toggleable between 1D / 7D / 30D / 3M / 1Y / All, plus current-state
-rows for permissions, soft indicators, sign-in method, and user habits.
+A React (Vite) dashboard with two tabs:
+
+- **Dashboard** — new users, new groups, and new meetups over time,
+  toggleable between 1D / 7D / 30D / 3M / 1Y / All, plus current-state rows
+  for permissions, soft indicators, sign-in method, and user habits.
+- **Searchable Data** — a directory for leadership to look up individual
+  users (search by name/email/phone; see when they joined and which groups
+  they created or belong to) and to browse groups (sortable by name,
+  members, or schedule; see owner, moderators, members, schedule, and last
+  chat activity).
+
 Hosted on GitHub Pages via a GitHub Actions build; data is refreshed several
 times a day by a scheduled GitHub Action that reads from the GroupThat
 MongoDB and Clerk, and commits aggregated JSON snapshots.
@@ -21,8 +29,14 @@ historical backfill.
     series): sign-in method breakdown from Clerk, and permissions /
     soft-indicator / user-habit aggregates from Mongo. Overwritten each run,
     not accumulated.
+  - `public/data/directory.json` — the searchable directory: every user
+    (name, email, phone from Clerk, join date, groups created/joined) and
+    every non-DM group (name, owner, moderators, members, schedule,
+    createdAt, last chat message time). Powers the Searchable Data tab.
+    Overwritten each run, not accumulated.
 - `.github/workflows/update-stats.yml` runs that script five times a day
-  (and via manual "Run workflow"), then commits both updated JSON files.
+  (and via manual "Run workflow"), then commits all three updated JSON
+  files.
 - `src/` is the React app (built with Vite); `public/` holds static assets
   (logo, favicon, `data/stats.json`, `data/insights.json`) that are copied
   into the build as-is.

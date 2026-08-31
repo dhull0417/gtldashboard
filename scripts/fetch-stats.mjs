@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const STATS_PATH = path.join(__dirname, "..", "public", "data", "stats.json");
 const INSIGHTS_PATH = path.join(__dirname, "..", "public", "data", "insights.json");
+const DIRECTORY_PATH = path.join(__dirname, "..", "public", "data", "directory.json");
 
 const COLLECTIONS = {
   users: "users",
@@ -74,17 +75,35 @@ function classifySignInMethod(user) {
   return "unknown";
 }
 
-async function signInMethodCounts(clerk) {
-  const counts = { google: 0, email: 0, apple: 0, phone: 0, unknown: 0 };
+async function fetchAllClerkUsers(clerk) {
+  const users = [];
   const limit = 500;
   let offset = 0;
   while (true) {
     const { data, totalCount } = await clerk.users.getUserList({ limit, offset });
-    for (const user of data) counts[classifySignInMethod(user)] += 1;
+    users.push(...data);
     offset += data.length;
     if (data.length === 0 || offset >= totalCount) break;
   }
+  return users;
+}
+
+function signInMethodCounts(clerkUsers) {
+  const counts = { google: 0, email: 0, apple: 0, phone: 0, unknown: 0 };
+  for (const user of clerkUsers) counts[classifySignInMethod(user)] += 1;
   return counts;
+}
+
+// Mongo users are linked to Clerk via `clerkId`; phone numbers only live in
+// Clerk (the Mongo `users` collection has no phone field), so this is the
+// only way to surface phone in the searchable directory.
+function phoneByClerkId(clerkUsers) {
+  const map = new Map();
+  for (const user of clerkUsers) {
+    const phone = user.phoneNumbers?.[0]?.phoneNumber;
+    if (phone) map.set(user.id, phone);
+  }
+  return map;
 }
 
 async function softIndicatorCounts(db) {
@@ -150,6 +169,79 @@ function round2(n) {
   return Math.round(n * 100) / 100;
 }
 
+function userName(u) {
+  return [u.firstName, u.lastName].filter(Boolean).join(" ") || "(no name)";
+}
+
+// Builds the searchable-directory snapshot: every user with their created/
+// joined groups, and every non-DM group with resolved member/owner/
+// moderator names. DMs are excluded, same as userHabits() above — leadership
+// cares about groups, not 1:1 threads.
+async function buildDirectory(db, clerkUsers) {
+  const phoneMap = phoneByClerkId(clerkUsers);
+
+  const [users, groups] = await Promise.all([
+    db
+      .collection("users")
+      .find({})
+      .project({ firstName: 1, lastName: 1, email: 1, clerkId: 1, createdAt: 1, groups: 1 })
+      .toArray(),
+    db
+      .collection("groups")
+      .find({ isDM: { $ne: true } })
+      .project({ name: 1, members: 1, owner: 1, moderators: 1, createdAt: 1, schedule: 1, lastMessage: 1 })
+      .toArray(),
+  ]);
+
+  const usersById = new Map(users.map((u) => [String(u._id), u]));
+  const nameById = (id) => {
+    const u = usersById.get(String(id));
+    return u ? userName(u) : "(former member)";
+  };
+  const refList = (ids) => (ids ?? []).map((id) => ({ id: String(id), name: nameById(id) }));
+
+  const groupsById = new Map(groups.map((g) => [String(g._id), g]));
+  const groupRef = (id) => {
+    const g = groupsById.get(String(id));
+    return g ? { id: String(id), name: g.name } : null;
+  };
+
+  const directoryUsers = users.map((u) => {
+    const idStr = String(u._id);
+    return {
+      id: idStr,
+      firstName: u.firstName ?? "",
+      lastName: u.lastName ?? "",
+      email: u.email ?? null,
+      phone: phoneMap.get(u.clerkId) ?? null,
+      joinedAt: u.createdAt,
+      groupsCreated: groups
+        .filter((g) => String(g.owner) === idStr)
+        .map((g) => ({ id: String(g._id), name: g.name })),
+      groupsMember: (u.groups ?? []).map(groupRef).filter(Boolean),
+    };
+  });
+
+  const directoryGroups = groups.map((g) => ({
+    id: String(g._id),
+    name: g.name,
+    createdAt: g.createdAt,
+    owner: g.owner ? { id: String(g.owner), name: nameById(g.owner) } : null,
+    moderators: refList(g.moderators),
+    members: refList(g.members),
+    schedule: {
+      startDate: g.schedule?.startDate ?? null,
+      routines: (g.schedule?.routines ?? []).map((r) => ({
+        frequency: normalizeFrequency(r.frequency),
+        dayTimes: (r.dayTimes ?? []).map((dt) => ({ day: dt.day, time: dt.time })),
+      })),
+    },
+    lastMessageAt: g.lastMessage?.createdAt ?? null,
+  }));
+
+  return { users: directoryUsers, groups: directoryGroups };
+}
+
 async function main() {
   const mongoUri = process.env.MONGO_URI;
   if (!mongoUri) throw new Error("MONGO_URI environment variable is required");
@@ -183,15 +275,22 @@ async function main() {
   console.log(`Wrote ${days.length} day(s) of stats (${startDate} -> ${endDate}) to ${STATS_PATH}`);
 
   const clerk = createClerkClient({ secretKey: clerkSecretKey });
+  const clerkUsers = await fetchAllClerkUsers(clerk);
   const insights = {
     asOf: endDate,
-    signInMethods: await signInMethodCounts(clerk),
+    signInMethods: signInMethodCounts(clerkUsers),
     permissions: await permissionCounts(db),
     softIndicators: await softIndicatorCounts(db),
     userHabits: await userHabits(db),
   };
   await writeFile(INSIGHTS_PATH, `${JSON.stringify(insights, null, 2)}\n`, "utf8");
   console.log(`Wrote insights snapshot (as of ${endDate}) to ${INSIGHTS_PATH}`);
+
+  const directory = { asOf: endDate, ...(await buildDirectory(db, clerkUsers)) };
+  await writeFile(DIRECTORY_PATH, `${JSON.stringify(directory, null, 2)}\n`, "utf8");
+  console.log(
+    `Wrote directory snapshot (${directory.users.length} users, ${directory.groups.length} groups) to ${DIRECTORY_PATH}`
+  );
 
   await client.close();
 }

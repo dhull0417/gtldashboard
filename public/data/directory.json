@@ -1,0 +1,383 @@
+{
+  "asOf": "2026-08-31",
+  "users": [
+    {
+      "id": "6a92e7642651776280ed14b3",
+      "firstName": "Dallin",
+      "lastName": "Hull",
+      "email": "dallinrichard@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-08-29T14:06:28.608Z",
+      "groupsCreated": [
+        {
+          "id": "6a934f556dc7aa9cd637ce15",
+          "name": "Sunday Food & Fun"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a92faea61654a6a65362145",
+          "name": "Santa Clara 18th Ward Temple Men"
+        },
+        {
+          "id": "6a934f556dc7aa9cd637ce15",
+          "name": "Sunday Food & Fun"
+        },
+        {
+          "id": "6a93543a49d279b9b57afb38",
+          "name": "Come Follow Me"
+        },
+        {
+          "id": "6a92fd5b2c5ee9d5d20d7b7c",
+          "name": "GroupThat Leadership Meeting"
+        }
+      ]
+    },
+    {
+      "id": "6a92e8882651776280ed14c7",
+      "firstName": "Devin",
+      "lastName": "Payne",
+      "email": "devpayne@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-08-29T14:11:20.225Z",
+      "groupsCreated": [
+        {
+          "id": "6a92faea61654a6a65362145",
+          "name": "Santa Clara 18th Ward Temple Men"
+        },
+        {
+          "id": "6a92fd5b2c5ee9d5d20d7b7c",
+          "name": "GroupThat Leadership Meeting"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a92faea61654a6a65362145",
+          "name": "Santa Clara 18th Ward Temple Men"
+        },
+        {
+          "id": "6a92fd5b2c5ee9d5d20d7b7c",
+          "name": "GroupThat Leadership Meeting"
+        }
+      ]
+    },
+    {
+      "id": "6a92fcd5b00a89418a963faa",
+      "firstName": "Kim",
+      "lastName": "Hull",
+      "email": "kimberlyseely.93@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-08-29T15:37:57.623Z",
+      "groupsCreated": [
+        {
+          "id": "6a93543a49d279b9b57afb38",
+          "name": "Come Follow Me"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a934f556dc7aa9cd637ce15",
+          "name": "Sunday Food & Fun"
+        },
+        {
+          "id": "6a93543a49d279b9b57afb38",
+          "name": "Come Follow Me"
+        }
+      ]
+    },
+    {
+      "id": "6a93098946fc99ddc06005fc",
+      "firstName": "",
+      "lastName": "",
+      "email": "dp5dbf7hpf@privaterelay.appleid.com",
+      "phone": null,
+      "joinedAt": "2026-08-29T16:32:09.266Z",
+      "groupsCreated": [
+        {
+          "id": "6a930a5594072a881a89bb7f",
+          "name": "Nielsen Family"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a930a5594072a881a89bb7f",
+          "name": "Nielsen Family"
+        }
+      ]
+    },
+    {
+      "id": "6a93134094072a881a89bbe3",
+      "firstName": "Lauren",
+      "lastName": "Nielsen",
+      "email": "nielsen.shopping@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-08-29T17:13:36.734Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a930a5594072a881a89bb7f",
+          "name": "Nielsen Family"
+        }
+      ]
+    },
+    {
+      "id": "6a93373ed476bd5774ac2da4",
+      "firstName": "claire",
+      "lastName": "mayfield",
+      "email": "clairemayfield0410@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-08-29T19:47:10.111Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6a94e34d334abd8afde82eee",
+      "firstName": "Eric",
+      "lastName": "Crookshank",
+      "email": "ericcrookshank@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-08-31T02:13:33.324Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a934f556dc7aa9cd637ce15",
+          "name": "Sunday Food & Fun"
+        }
+      ]
+    },
+    {
+      "id": "6a94fecac99a57f8a912d248",
+      "firstName": "Mitchell",
+      "lastName": "Seely",
+      "email": "mitchjseely@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-08-31T04:10:50.401Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6a94ffc1d8a80a551bb05c3b",
+      "firstName": "Lexi",
+      "lastName": "Seely",
+      "email": "dkrfpt7j5r@privaterelay.appleid.com",
+      "phone": null,
+      "joinedAt": "2026-08-31T04:14:57.538Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a934f556dc7aa9cd637ce15",
+          "name": "Sunday Food & Fun"
+        }
+      ]
+    },
+    {
+      "id": "6a95e12300c51fd66ba67abc",
+      "firstName": "William",
+      "lastName": "Chaffee",
+      "email": "echaffee22@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-08-31T20:16:35.214Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a92fd5b2c5ee9d5d20d7b7c",
+          "name": "GroupThat Leadership Meeting"
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "6a92faea61654a6a65362145",
+      "name": "Santa Clara 18th Ward Temple Men",
+      "createdAt": "2026-08-29T15:29:46.077Z",
+      "owner": {
+        "id": "6a92e8882651776280ed14c7",
+        "name": "Devin Payne"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a92e8882651776280ed14c7",
+          "name": "Devin Payne"
+        },
+        {
+          "id": "6a92e7642651776280ed14b3",
+          "name": "Dallin Hull"
+        }
+      ],
+      "schedule": {
+        "startDate": "2026-09-23T00:00:00.000Z",
+        "routines": [
+          {
+            "frequency": "monthly",
+            "dayTimes": [
+              {
+                "day": 3,
+                "time": "12:00 PM"
+              }
+            ]
+          }
+        ]
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6a92fd5b2c5ee9d5d20d7b7c",
+      "name": "GroupThat Leadership Meeting",
+      "createdAt": "2026-08-29T15:40:11.708Z",
+      "owner": {
+        "id": "6a92e8882651776280ed14c7",
+        "name": "Devin Payne"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a92e8882651776280ed14c7",
+          "name": "Devin Payne"
+        },
+        {
+          "id": "6a92e7642651776280ed14b3",
+          "name": "Dallin Hull"
+        },
+        {
+          "id": "6a95e12300c51fd66ba67abc",
+          "name": "William Chaffee"
+        }
+      ],
+      "schedule": {
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "routines": [
+          {
+            "frequency": "weekly",
+            "dayTimes": [
+              {
+                "day": 3,
+                "time": "08:30 PM"
+              }
+            ]
+          }
+        ]
+      },
+      "lastMessageAt": "2026-08-31T20:36:10.628Z"
+    },
+    {
+      "id": "6a930a5594072a881a89bb7f",
+      "name": "Nielsen Family",
+      "createdAt": "2026-08-29T16:35:33.549Z",
+      "owner": {
+        "id": "6a93098946fc99ddc06005fc",
+        "name": "(no name)"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a93098946fc99ddc06005fc",
+          "name": "(no name)"
+        },
+        {
+          "id": "6a93134094072a881a89bbe3",
+          "name": "Lauren Nielsen"
+        }
+      ],
+      "schedule": {
+        "startDate": "2026-09-20T00:00:00.000Z",
+        "routines": [
+          {
+            "frequency": "monthly",
+            "dayTimes": [
+              {
+                "day": 0,
+                "time": "05:00 PM"
+              }
+            ]
+          }
+        ]
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6a934f556dc7aa9cd637ce15",
+      "name": "Sunday Food & Fun",
+      "createdAt": "2026-08-29T21:29:57.670Z",
+      "owner": {
+        "id": "6a92e7642651776280ed14b3",
+        "name": "Dallin Hull"
+      },
+      "moderators": [
+        {
+          "id": "6a92fcd5b00a89418a963faa",
+          "name": "Kim Hull"
+        }
+      ],
+      "members": [
+        {
+          "id": "6a92e7642651776280ed14b3",
+          "name": "Dallin Hull"
+        },
+        {
+          "id": "6a92fcd5b00a89418a963faa",
+          "name": "Kim Hull"
+        },
+        {
+          "id": "6a94e34d334abd8afde82eee",
+          "name": "Eric Crookshank"
+        },
+        {
+          "id": "6a94ffc1d8a80a551bb05c3b",
+          "name": "Lexi Seely"
+        }
+      ],
+      "schedule": {
+        "startDate": "2026-08-29T00:00:00.000Z",
+        "routines": [
+          {
+            "frequency": "biweekly",
+            "dayTimes": [
+              {
+                "day": 0,
+                "time": "04:30 PM"
+              }
+            ]
+          }
+        ]
+      },
+      "lastMessageAt": "2026-08-31T02:15:48.308Z"
+    },
+    {
+      "id": "6a93543a49d279b9b57afb38",
+      "name": "Come Follow Me",
+      "createdAt": "2026-08-29T21:50:50.525Z",
+      "owner": {
+        "id": "6a92fcd5b00a89418a963faa",
+        "name": "Kim Hull"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a92fcd5b00a89418a963faa",
+          "name": "Kim Hull"
+        },
+        {
+          "id": "6a92e7642651776280ed14b3",
+          "name": "Dallin Hull"
+        }
+      ],
+      "schedule": {
+        "startDate": "2026-08-29T00:00:00.000Z",
+        "routines": [
+          {
+            "frequency": "weekly",
+            "dayTimes": [
+              {
+                "day": 0,
+                "time": "03:00 PM"
+              }
+            ]
+          }
+        ]
+      },
+      "lastMessageAt": "2026-08-29T21:52:46.659Z"
+    }
+  ]
+}

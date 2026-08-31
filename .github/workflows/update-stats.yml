@@ -29,17 +29,18 @@ jobs:
         working-directory: scripts
         run: npm ci
 
-      - name: Fetch latest stats from MongoDB
+      - name: Fetch latest stats from MongoDB and Clerk
         working-directory: scripts
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
+          CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
         run: npm run fetch-stats
 
-      - name: Commit updated stats.json
+      - name: Commit updated stats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/stats.json
+          git add public/data/stats.json public/data/insights.json
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: update dashboard stats"
           git push

@@ -1,27 +1,41 @@
 # GroupThat Leadership Dashboard
 
 A React (Vite) dashboard showing new users, new groups, and new meetups over
-time, toggleable between 1D / 7D / 30D / 3M / 1Y / All. Hosted on GitHub
-Pages via a GitHub Actions build; data is refreshed several times a day by a
-scheduled GitHub Action that reads from the GroupThat MongoDB and commits an
-aggregated JSON snapshot.
+time, toggleable between 1D / 7D / 30D / 3M / 1Y / All, plus current-state
+rows for permissions, soft indicators, sign-in method, and user habits.
+Hosted on GitHub Pages via a GitHub Actions build; data is refreshed several
+times a day by a scheduled GitHub Action that reads from the GroupThat
+MongoDB and Clerk, and commits aggregated JSON snapshots.
 
 Tracking starts from the day this was first deployed — there is no
 historical backfill.
 
 ## How it works
 
-- `scripts/fetch-stats.mjs` connects to MongoDB with a **read-only** user,
-  aggregates daily counts from the `users`, `groups`, and `meetups`
-  collections (by `createdAt`), and writes `public/data/stats.json`.
+- `scripts/fetch-stats.mjs` connects to MongoDB with a **read-only** user
+  and to Clerk with a secret key, then writes two files:
+  - `public/data/stats.json` — daily counts from the `users`, `groups`, and
+    `meetups` collections (by `createdAt`), one entry per day since first
+    deploy. Powers the three trend charts.
+  - `public/data/insights.json` — a current-state snapshot (not a time
+    series): sign-in method breakdown from Clerk, and permissions /
+    soft-indicator / user-habit aggregates from Mongo. Overwritten each run,
+    not accumulated.
 - `.github/workflows/update-stats.yml` runs that script five times a day
-  (and via manual "Run workflow"), then commits the updated JSON.
+  (and via manual "Run workflow"), then commits both updated JSON files.
 - `src/` is the React app (built with Vite); `public/` holds static assets
-  (logo, favicon, `data/stats.json`) that are copied into the build as-is.
+  (logo, favicon, `data/stats.json`, `data/insights.json`) that are copied
+  into the build as-is.
 - `.github/workflows/deploy-pages.yml` builds the app with `npm run build`
   and publishes the `dist/` output to GitHub Pages on every push to `main`
   that touches app source or data. Nothing needs to be committed to a
   `docs/` folder — the workflow builds fresh each run.
+
+Permissions row note: only "Notifications" is populated today (via presence
+of a stored `expoPushToken`). Location and photo-library access aren't
+written to the `users` collection anywhere yet — the app itself needs to
+report OS permission status to the backend before those can show real
+numbers here.
 
 ## One-time setup
 
@@ -33,11 +47,16 @@ historical backfill.
    Secrets and variables → Actions → New repository secret →
    name it `MONGO_URI`, value is the read-only user's connection string
    (include the database name, e.g. `.../groupthat?...`).
-3. **Enable GitHub Pages**: repo Settings → Pages → Source: "GitHub
+3. **Add a Clerk secret key as a GitHub secret** the same way: name it
+   `CLERK_SECRET_KEY`, value from the Clerk dashboard (API Keys → Secret
+   keys). Only the secret key is needed — this script never runs in a
+   browser, so the publishable key isn't used.
+4. **Enable GitHub Pages**: repo Settings → Pages → Source: "GitHub
    Actions".
-4. **Run the workflow once manually** (Actions tab → "Update dashboard
-   stats" → Run workflow) so `public/data/stats.json` has real data before
-   waiting for the next scheduled run.
+5. **Run the workflow once manually** (Actions tab → "Update dashboard
+   stats" → Run workflow) so `public/data/stats.json` and
+   `public/data/insights.json` have real data before waiting for the next
+   scheduled run.
 
 ## Changing the password
 
@@ -69,7 +88,22 @@ npm install
 npm run dev
 ```
 
-Then open the printed local URL. `public/data/stats.json` is served as-is,
-so you can drop in sample data locally to preview without touching Mongo.
+Then open the printed local URL. `public/data/stats.json` and
+`public/data/insights.json` are served as-is, so you can drop in sample data
+locally to preview without touching Mongo or Clerk.
 
 To sanity-check the production build: `npm run build && npm run preview`.
+
+### Running the fetch script locally
+
+`scripts/.env` (gitignored) holds `MONGO_URI` and `CLERK_SECRET_KEY` for
+local runs — copy `scripts/.env.example` and fill in real values yourself
+(don't paste secrets into chat/AI tools). Then, from `scripts/`:
+
+```
+npm install
+npm run fetch-stats
+```
+
+This overwrites `public/data/stats.json` and `public/data/insights.json`
+with live data, same as the scheduled GitHub Action.

@@ -4,9 +4,10 @@
   "type": "module",
   "description": "Data pipeline for the GroupThat leadership dashboard. Runs on a schedule via GitHub Actions, not in the browser.",
   "scripts": {
-    "fetch-stats": "node fetch-stats.mjs"
+    "fetch-stats": "node --env-file-if-exists=.env fetch-stats.mjs"
   },
   "dependencies": {
+    "@clerk/backend": "^3.16.13",
     "mongodb": "^6.10.0"
   }
 }

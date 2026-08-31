@@ -177,11 +177,43 @@
       "email": "echaffee22@gmail.com",
       "phone": null,
       "joinedAt": "2026-08-31T20:16:35.214Z",
-      "groupsCreated": [],
+      "groupsCreated": [
+        {
+          "id": "6a95f44d2b3240168c6443de",
+          "name": "You're My 🏠 🍕"
+        },
+        {
+          "id": "6a95fbafdc39695c69575815",
+          "name": "DinDin and Doctrine"
+        }
+      ],
       "groupsMember": [
         {
           "id": "6a92fd5b2c5ee9d5d20d7b7c",
           "name": "GroupThat Leadership Meeting"
+        },
+        {
+          "id": "6a95f44d2b3240168c6443de",
+          "name": "You're My 🏠 🍕"
+        },
+        {
+          "id": "6a95fbafdc39695c69575815",
+          "name": "DinDin and Doctrine"
+        }
+      ]
+    },
+    {
+      "id": "6a95fba92856eb5dfc256587",
+      "firstName": "Jen",
+      "lastName": "Chaffee",
+      "email": "jchaffee17@yahoo.com",
+      "phone": null,
+      "joinedAt": "2026-08-31T22:09:45.846Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a95fbafdc39695c69575815",
+          "name": "DinDin and Doctrine"
         }
       ]
     }
@@ -378,6 +410,72 @@
         ]
       },
       "lastMessageAt": "2026-08-29T21:52:46.659Z"
+    },
+    {
+      "id": "6a95f44d2b3240168c6443de",
+      "name": "You're My 🏠 🍕",
+      "createdAt": "2026-08-31T21:38:21.838Z",
+      "owner": {
+        "id": "6a95e12300c51fd66ba67abc",
+        "name": "William Chaffee"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a95e12300c51fd66ba67abc",
+          "name": "William Chaffee"
+        }
+      ],
+      "schedule": {
+        "startDate": "2026-08-31T00:00:00.000Z",
+        "routines": [
+          {
+            "frequency": "weekly",
+            "dayTimes": [
+              {
+                "day": 1,
+                "time": "12:00 PM"
+              }
+            ]
+          }
+        ]
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6a95fbafdc39695c69575815",
+      "name": "DinDin and Doctrine",
+      "createdAt": "2026-08-31T22:09:51.121Z",
+      "owner": {
+        "id": "6a95e12300c51fd66ba67abc",
+        "name": "William Chaffee"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a95e12300c51fd66ba67abc",
+          "name": "William Chaffee"
+        },
+        {
+          "id": "6a95fba92856eb5dfc256587",
+          "name": "Jen Chaffee"
+        }
+      ],
+      "schedule": {
+        "startDate": "2026-09-06T00:00:00.000Z",
+        "routines": [
+          {
+            "frequency": "weekly",
+            "dayTimes": [
+              {
+                "day": 0,
+                "time": "05:00 PM"
+              }
+            ]
+          }
+        ]
+      },
+      "lastMessageAt": "2026-08-31T22:11:23.895Z"
     }
   ]
 }

@@ -22,17 +22,32 @@ function compare(a, b, sortKey) {
 }
 
 export default function GroupList({ groups }) {
+  const [query, setQuery] = useState("");
   const [sortKey, setSortKey] = useState("name");
   const [dir, setDir] = useState("asc");
 
+  const trimmed = query.trim();
+  const filtered = useMemo(() => {
+    if (!trimmed) return groups;
+    const q = trimmed.toLowerCase();
+    return groups.filter((g) => g.name.toLowerCase().includes(q));
+  }, [groups, trimmed]);
+
   const sorted = useMemo(() => {
-    const copy = [...groups];
+    const copy = [...filtered];
     copy.sort((a, b) => (dir === "asc" ? compare(a, b, sortKey) : compare(b, a, sortKey)));
     return copy;
-  }, [groups, sortKey, dir]);
+  }, [filtered, sortKey, dir]);
 
   return (
     <div className="search-panel">
+      <input
+        type="search"
+        className="search-input"
+        placeholder="Search by group name…"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
       <div className="sort-row" role="group" aria-label="Sort groups">
         <span className="sort-row-label">Sort by</span>
         {SORTS.map((s) => (
@@ -44,11 +59,14 @@ export default function GroupList({ groups }) {
           {dir === "asc" ? "Ascending" : "Descending"}
         </button>
       </div>
-      <div className="search-meta">{groups.length.toLocaleString()} groups</div>
+      <div className="search-meta">
+        {sorted.length.toLocaleString()} of {groups.length.toLocaleString()} groups
+      </div>
       <div className="card-grid">
         {sorted.map((g) => (
           <GroupCard key={g.id} group={g} />
         ))}
+        {sorted.length === 0 && <p className="empty-note">No groups match "{trimmed}".</p>}
       </div>
     </div>
   );

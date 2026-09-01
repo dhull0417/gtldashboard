@@ -32,10 +32,6 @@
           "name": "GroupThat Leadership Meeting"
         },
         {
-          "id": "6a96a9627e5e26f6c3784501",
-          "name": "Jj"
-        },
-        {
           "id": "6a972bcd02ade465e42a97a6",
           "name": "Guys n Games"
         }
@@ -66,6 +62,10 @@
         {
           "id": "6a92fd5b2c5ee9d5d20d7b7c",
           "name": "GroupThat Leadership Meeting"
+        },
+        {
+          "id": "6a973f8add26353b6aa11245",
+          "name": "Peins y Reekers"
         }
       ]
     },
@@ -305,11 +305,20 @@
       "email": null,
       "phone": "+15038882119",
       "joinedAt": "2026-08-31T22:54:46.291Z",
-      "groupsCreated": [],
+      "groupsCreated": [
+        {
+          "id": "6a973f8add26353b6aa11245",
+          "name": "Peins y Reekers"
+        }
+      ],
       "groupsMember": [
         {
           "id": "6a96590bd4343c648c4acf10",
           "name": "Mesa Fiesta"
+        },
+        {
+          "id": "6a973f8add26353b6aa11245",
+          "name": "Peins y Reekers"
         }
       ]
     },
@@ -370,18 +379,8 @@
       "email": "ventures.hull@gmail.com",
       "phone": null,
       "joinedAt": "2026-09-01T10:30:23.065Z",
-      "groupsCreated": [
-        {
-          "id": "6a96a9627e5e26f6c3784501",
-          "name": "Jj"
-        }
-      ],
-      "groupsMember": [
-        {
-          "id": "6a96a9627e5e26f6c3784501",
-          "name": "Jj"
-        }
-      ]
+      "groupsCreated": [],
+      "groupsMember": []
     },
     {
       "id": "6a96b223a340f7147074b769",
@@ -397,6 +396,16 @@
           "name": "You're My 🏠 🍕"
         }
       ]
+    },
+    {
+      "id": "6a9741f54d3e6c88df089c8d",
+      "firstName": "Heather",
+      "lastName": "Ricker",
+      "email": "heathricker@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-09-01T21:21:57.867Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -759,65 +768,6 @@
       "lastMessageAt": "2026-09-01T04:49:36.243Z"
     },
     {
-      "id": "6a96a9627e5e26f6c3784501",
-      "name": "Jj",
-      "createdAt": "2026-09-01T10:30:58.299Z",
-      "owner": {
-        "id": "6a96a93f218bb8c9b7da6ee3",
-        "name": "Dallin Hull"
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6a96a93f218bb8c9b7da6ee3",
-          "name": "Dallin Hull"
-        },
-        {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin Hull"
-        }
-      ],
-      "schedule": {
-        "startDate": "2026-09-01T00:00:00.000Z",
-        "routines": [
-          {
-            "frequency": "daily",
-            "dayTimes": [
-              {
-                "day": 0,
-                "time": "05:00 PM"
-              },
-              {
-                "day": 1,
-                "time": "05:00 PM"
-              },
-              {
-                "day": 2,
-                "time": "05:00 PM"
-              },
-              {
-                "day": 3,
-                "time": "05:00 PM"
-              },
-              {
-                "day": 4,
-                "time": "05:00 PM"
-              },
-              {
-                "day": 5,
-                "time": "05:00 PM"
-              },
-              {
-                "day": 6,
-                "time": "05:00 PM"
-              }
-            ]
-          }
-        ]
-      },
-      "lastMessageAt": "2026-09-01T13:14:55.758Z"
-    },
-    {
       "id": "6a972bcd02ade465e42a97a6",
       "name": "Guys n Games",
       "createdAt": "2026-09-01T19:47:26.001Z",
@@ -841,6 +791,31 @@
         "routines": []
       },
       "lastMessageAt": "2026-09-01T19:49:48.977Z"
+    },
+    {
+      "id": "6a973f8add26353b6aa11245",
+      "name": "Peins y Reekers",
+      "createdAt": "2026-09-01T21:11:38.789Z",
+      "owner": {
+        "id": "6a960636896def9c9ea6072c",
+        "name": "Jay Ricker"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a960636896def9c9ea6072c",
+          "name": "Jay Ricker"
+        },
+        {
+          "id": "6a92e8882651776280ed14c7",
+          "name": "Devin Payne"
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": "2026-09-01T21:37:17.483Z"
     }
   ]
 }

@@ -34,6 +34,10 @@
         {
           "id": "6a96a9627e5e26f6c3784501",
           "name": "Jj"
+        },
+        {
+          "id": "6a972bcd02ade465e42a97a6",
+          "name": "Guys n Games"
         }
       ]
     },
@@ -156,8 +160,22 @@
       "email": "mitchjseely@gmail.com",
       "phone": null,
       "joinedAt": "2026-08-31T04:10:50.401Z",
-      "groupsCreated": [],
-      "groupsMember": []
+      "groupsCreated": [
+        {
+          "id": "6a972bcd02ade465e42a97a6",
+          "name": "Guys n Games"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a934f556dc7aa9cd637ce15",
+          "name": "Sunday Food & Fun"
+        },
+        {
+          "id": "6a972bcd02ade465e42a97a6",
+          "name": "Guys n Games"
+        }
+      ]
     },
     {
       "id": "6a94ffc1d8a80a551bb05c3b",
@@ -530,6 +548,10 @@
         {
           "id": "6a94ffc1d8a80a551bb05c3b",
           "name": "Lexi Seely"
+        },
+        {
+          "id": "6a94fecac99a57f8a912d248",
+          "name": "Mitchell Seely"
         }
       ],
       "schedule": {
@@ -546,7 +568,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-08-31T02:15:48.308Z"
+      "lastMessageAt": "2026-09-01T19:22:14.020Z"
     },
     {
       "id": "6a93543a49d279b9b57afb38",
@@ -794,6 +816,31 @@
         ]
       },
       "lastMessageAt": "2026-09-01T13:14:55.758Z"
+    },
+    {
+      "id": "6a972bcd02ade465e42a97a6",
+      "name": "Guys n Games",
+      "createdAt": "2026-09-01T19:47:26.001Z",
+      "owner": {
+        "id": "6a94fecac99a57f8a912d248",
+        "name": "Mitchell Seely"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a94fecac99a57f8a912d248",
+          "name": "Mitchell Seely"
+        },
+        {
+          "id": "6a92e7642651776280ed14b3",
+          "name": "Dallin Hull"
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": "2026-09-01T19:49:48.977Z"
     }
   ]
 }

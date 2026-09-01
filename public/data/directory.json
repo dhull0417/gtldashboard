@@ -300,6 +300,21 @@
           "name": "You're My 🏠 🍕"
         }
       ]
+    },
+    {
+      "id": "6a963a489c0238aa08af6403",
+      "firstName": "Mark",
+      "lastName": "Fuller",
+      "email": "markfuller198227@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-09-01T02:36:56.959Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a95f44d2b3240168c6443de",
+          "name": "You're My 🏠 🍕"
+        }
+      ]
     }
   ],
   "groups": [
@@ -524,6 +539,10 @@
         {
           "id": "6a960f7b4626345194ef9446",
           "name": "Bill Chaffee"
+        },
+        {
+          "id": "6a963a489c0238aa08af6403",
+          "name": "Mark Fuller"
         }
       ],
       "schedule": {
@@ -540,7 +559,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-08-31T23:37:03.068Z"
+      "lastMessageAt": "2026-09-01T03:55:39.550Z"
     },
     {
       "id": "6a95fbafdc39695c69575815",
@@ -579,7 +598,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-08-31T22:20:33.025Z"
+      "lastMessageAt": "2026-09-01T04:06:06.795Z"
     }
   ]
 }

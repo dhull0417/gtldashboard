@@ -1,10 +1,9 @@
 import { useMemo, useState } from "react";
-import { digitsOnly, formatDate } from "../lib/format.js";
+import { digitsOnly, formatDate, formatDisplayName } from "../lib/format.js";
 
 function matchesUser(user, query, queryDigits) {
   const fullName = `${user.firstName} ${user.lastName}`.toLowerCase();
   if (fullName.includes(query)) return true;
-  if (user.email && user.email.toLowerCase().includes(query)) return true;
   if (queryDigits && user.phone && digitsOnly(user.phone).includes(queryDigits)) return true;
   return false;
 }
@@ -25,7 +24,7 @@ export default function UserSearch({ users }) {
       <input
         type="search"
         className="search-input"
-        placeholder="Search by name, email, or phone…"
+        placeholder="Search by name or phone…"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
@@ -57,15 +56,12 @@ function UserCard({ user }) {
   return (
     <div className="data-card">
       <div className="data-card-head">
-        <span className="data-card-title">
-          {user.firstName} {user.lastName}
-        </span>
+        <span className="data-card-title">{formatDisplayName(user.firstName, user.lastName)}</span>
         <span className="data-card-sub">Joined {formatDate(user.joinedAt)}</span>
       </div>
-      {(user.email || user.phone) && (
+      {user.phone && (
         <div className="data-card-contact">
-          {user.email && <span>{user.email}</span>}
-          {user.phone && <span>{user.phone}</span>}
+          <span>{user.phone}</span>
         </div>
       )}
       <div className="data-card-section">

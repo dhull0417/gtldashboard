@@ -170,7 +170,11 @@ function round2(n) {
 }
 
 function userName(u) {
-  return [u.firstName, u.lastName].filter(Boolean).join(" ") || "(no name)";
+  const first = (u.firstName ?? "").trim();
+  const lastInitial = (u.lastName ?? "").trim()[0];
+  if (!first && !lastInitial) return "(no name)";
+  if (!lastInitial) return first;
+  return `${first} ${lastInitial.toUpperCase()}.`;
 }
 
 // Builds the searchable-directory snapshot: every user with their created/
@@ -184,7 +188,7 @@ async function buildDirectory(db, clerkUsers) {
     db
       .collection("users")
       .find({})
-      .project({ firstName: 1, lastName: 1, email: 1, clerkId: 1, createdAt: 1, groups: 1 })
+      .project({ firstName: 1, lastName: 1, clerkId: 1, createdAt: 1, groups: 1 })
       .toArray(),
     db
       .collection("groups")
@@ -212,7 +216,6 @@ async function buildDirectory(db, clerkUsers) {
       id: idStr,
       firstName: u.firstName ?? "",
       lastName: u.lastName ?? "",
-      email: u.email ?? null,
       phone: phoneMap.get(u.clerkId) ?? null,
       joinedAt: u.createdAt,
       groupsCreated: groups

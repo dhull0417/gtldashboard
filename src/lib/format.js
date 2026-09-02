@@ -28,3 +28,11 @@ export function routineSummary(routine) {
 export function digitsOnly(s) {
   return (s ?? "").replace(/\D/g, "");
 }
+
+export function formatDisplayName(firstName, lastName) {
+  const first = (firstName ?? "").trim();
+  const lastInitial = (lastName ?? "").trim()[0];
+  if (!first && !lastInitial) return "(no name)";
+  if (!lastInitial) return first;
+  return `${first} ${lastInitial.toUpperCase()}.`;
+}

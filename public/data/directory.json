@@ -4,6 +4,7 @@
     {
       "id": "6a92e7642651776280ed14b3",
       "firstName": "Dallin",
+      "lastInitial": "H",
       "phone": null,
       "joinedAt": "2026-08-29T14:06:28.608Z",
       "groupsCreated": [
@@ -33,12 +34,12 @@
           "id": "6a972bcd02ade465e42a97a6",
           "name": "Guys n Games"
         }
-      ],
-      "lastInitial": "H"
+      ]
     },
     {
       "id": "6a92e8882651776280ed14c7",
       "firstName": "Devin",
+      "lastInitial": "P",
       "phone": null,
       "joinedAt": "2026-08-29T14:11:20.225Z",
       "groupsCreated": [
@@ -64,12 +65,12 @@
           "id": "6a973f8add26353b6aa11245",
           "name": "Peins y Reekers"
         }
-      ],
-      "lastInitial": "P"
+      ]
     },
     {
       "id": "6a92fcd5b00a89418a963faa",
       "firstName": "Kim",
+      "lastInitial": "H",
       "phone": null,
       "joinedAt": "2026-08-29T15:37:57.623Z",
       "groupsCreated": [
@@ -87,12 +88,12 @@
           "id": "6a93543a49d279b9b57afb38",
           "name": "Come Follow Me"
         }
-      ],
-      "lastInitial": "H"
+      ]
     },
     {
       "id": "6a93098946fc99ddc06005fc",
       "firstName": "",
+      "lastInitial": null,
       "phone": null,
       "joinedAt": "2026-08-29T16:32:09.266Z",
       "groupsCreated": [
@@ -106,12 +107,12 @@
           "id": "6a930a5594072a881a89bb7f",
           "name": "Nielsen Family"
         }
-      ],
-      "lastInitial": null
+      ]
     },
     {
       "id": "6a93134094072a881a89bbe3",
       "firstName": "Lauren",
+      "lastInitial": "N",
       "phone": null,
       "joinedAt": "2026-08-29T17:13:36.734Z",
       "groupsCreated": [],
@@ -120,21 +121,21 @@
           "id": "6a930a5594072a881a89bb7f",
           "name": "Nielsen Family"
         }
-      ],
-      "lastInitial": "N"
+      ]
     },
     {
       "id": "6a93373ed476bd5774ac2da4",
       "firstName": "claire",
+      "lastInitial": "M",
       "phone": null,
       "joinedAt": "2026-08-29T19:47:10.111Z",
       "groupsCreated": [],
-      "groupsMember": [],
-      "lastInitial": "M"
+      "groupsMember": []
     },
     {
       "id": "6a94e34d334abd8afde82eee",
       "firstName": "Eric",
+      "lastInitial": "C",
       "phone": null,
       "joinedAt": "2026-08-31T02:13:33.324Z",
       "groupsCreated": [],
@@ -143,12 +144,12 @@
           "id": "6a934f556dc7aa9cd637ce15",
           "name": "Sunday Food & Fun"
         }
-      ],
-      "lastInitial": "C"
+      ]
     },
     {
       "id": "6a94fecac99a57f8a912d248",
       "firstName": "Mitchell",
+      "lastInitial": "S",
       "phone": null,
       "joinedAt": "2026-08-31T04:10:50.401Z",
       "groupsCreated": [
@@ -166,12 +167,12 @@
           "id": "6a972bcd02ade465e42a97a6",
           "name": "Guys n Games"
         }
-      ],
-      "lastInitial": "S"
+      ]
     },
     {
       "id": "6a94ffc1d8a80a551bb05c3b",
       "firstName": "Lexi",
+      "lastInitial": "S",
       "phone": null,
       "joinedAt": "2026-08-31T04:14:57.538Z",
       "groupsCreated": [],
@@ -180,12 +181,12 @@
           "id": "6a934f556dc7aa9cd637ce15",
           "name": "Sunday Food & Fun"
         }
-      ],
-      "lastInitial": "S"
+      ]
     },
     {
       "id": "6a95e12300c51fd66ba67abc",
       "firstName": "William",
+      "lastInitial": "C",
       "phone": null,
       "joinedAt": "2026-08-31T20:16:35.214Z",
       "groupsCreated": [
@@ -215,12 +216,12 @@
           "id": "6a977e384015799fdf61e8b8",
           "name": "Caves & Creatures"
         }
-      ],
-      "lastInitial": "C"
+      ]
     },
     {
       "id": "6a95fba92856eb5dfc256587",
       "firstName": "Jen",
+      "lastInitial": "C",
       "phone": null,
       "joinedAt": "2026-08-31T22:09:45.846Z",
       "groupsCreated": [],
@@ -233,12 +234,12 @@
           "id": "6a95f44d2b3240168c6443de",
           "name": "You're My 🏠 🍕"
         }
-      ],
-      "lastInitial": "C"
+      ]
     },
     {
       "id": "6a95fc75dc39695c69575870",
       "firstName": "Laree",
+      "lastInitial": "W",
       "phone": null,
       "joinedAt": "2026-08-31T22:13:09.419Z",
       "groupsCreated": [],
@@ -247,12 +248,12 @@
           "id": "6a95fbafdc39695c69575815",
           "name": "DinDin and Doctrine"
         }
-      ],
-      "lastInitial": "W"
+      ]
     },
     {
       "id": "6a95fe0fdc39695c69575881",
       "firstName": "Kira",
+      "lastInitial": "P",
       "phone": "+17608129475",
       "joinedAt": "2026-08-31T22:19:59.257Z",
       "groupsCreated": [],
@@ -261,12 +262,12 @@
           "id": "6a95fbafdc39695c69575815",
           "name": "DinDin and Doctrine"
         }
-      ],
-      "lastInitial": "P"
+      ]
     },
     {
       "id": "6a960346f06804637b261da0",
       "firstName": "Curtis",
+      "lastInitial": "H",
       "phone": null,
       "joinedAt": "2026-08-31T22:42:14.010Z",
       "groupsCreated": [],
@@ -275,12 +276,12 @@
           "id": "6a95f44d2b3240168c6443de",
           "name": "You're My 🏠 🍕"
         }
-      ],
-      "lastInitial": "H"
+      ]
     },
     {
       "id": "6a9603ba6002d217da771dda",
       "firstName": "",
+      "lastInitial": null,
       "phone": null,
       "joinedAt": "2026-08-31T22:44:10.254Z",
       "groupsCreated": [],
@@ -289,12 +290,12 @@
           "id": "6a95f44d2b3240168c6443de",
           "name": "You're My 🏠 🍕"
         }
-      ],
-      "lastInitial": null
+      ]
     },
     {
       "id": "6a960636896def9c9ea6072c",
       "firstName": "Jay",
+      "lastInitial": "R",
       "phone": "+15038882119",
       "joinedAt": "2026-08-31T22:54:46.291Z",
       "groupsCreated": [
@@ -312,12 +313,12 @@
           "id": "6a973f8add26353b6aa11245",
           "name": "Peins y Reekers"
         }
-      ],
-      "lastInitial": "R"
+      ]
     },
     {
       "id": "6a960f7b4626345194ef9446",
       "firstName": "Bill",
+      "lastInitial": "C",
       "phone": null,
       "joinedAt": "2026-08-31T23:34:19.165Z",
       "groupsCreated": [],
@@ -326,12 +327,12 @@
           "id": "6a95f44d2b3240168c6443de",
           "name": "You're My 🏠 🍕"
         }
-      ],
-      "lastInitial": "C"
+      ]
     },
     {
       "id": "6a963a489c0238aa08af6403",
       "firstName": "Mark",
+      "lastInitial": "F",
       "phone": null,
       "joinedAt": "2026-09-01T02:36:56.959Z",
       "groupsCreated": [],
@@ -340,12 +341,12 @@
           "id": "6a95f44d2b3240168c6443de",
           "name": "You're My 🏠 🍕"
         }
-      ],
-      "lastInitial": "F"
+      ]
     },
     {
       "id": "6a9658730328f887d201641d",
       "firstName": "Bob",
+      "lastInitial": "G",
       "phone": null,
       "joinedAt": "2026-09-01T04:45:39.259Z",
       "groupsCreated": [
@@ -359,21 +360,21 @@
           "id": "6a96590bd4343c648c4acf10",
           "name": "Mesa Fiesta"
         }
-      ],
-      "lastInitial": "G"
+      ]
     },
     {
       "id": "6a96a93f218bb8c9b7da6ee3",
       "firstName": "Dallin",
+      "lastInitial": "H",
       "phone": null,
       "joinedAt": "2026-09-01T10:30:23.065Z",
       "groupsCreated": [],
-      "groupsMember": [],
-      "lastInitial": "H"
+      "groupsMember": []
     },
     {
       "id": "6a96b223a340f7147074b769",
       "firstName": "",
+      "lastInitial": null,
       "phone": null,
       "joinedAt": "2026-09-01T11:08:19.067Z",
       "groupsCreated": [],
@@ -382,30 +383,30 @@
           "id": "6a95f44d2b3240168c6443de",
           "name": "You're My 🏠 🍕"
         }
-      ],
-      "lastInitial": null
+      ]
     },
     {
       "id": "6a9741f54d3e6c88df089c8d",
       "firstName": "Heather",
+      "lastInitial": "R",
       "phone": null,
       "joinedAt": "2026-09-01T21:21:57.867Z",
       "groupsCreated": [],
-      "groupsMember": [],
-      "lastInitial": "R"
+      "groupsMember": []
     },
     {
       "id": "6a975f5788de372c3b5c1ce2",
       "firstName": "Ryan",
+      "lastInitial": "P",
       "phone": null,
       "joinedAt": "2026-09-01T23:27:19.397Z",
       "groupsCreated": [],
-      "groupsMember": [],
-      "lastInitial": "P"
+      "groupsMember": []
     },
     {
       "id": "6a9767ee022cab8cbc23efcb",
       "firstName": "Krystal",
+      "lastInitial": "P",
       "phone": null,
       "joinedAt": "2026-09-02T00:03:58.772Z",
       "groupsCreated": [],
@@ -414,12 +415,12 @@
           "id": "6a973f8add26353b6aa11245",
           "name": "Peins y Reekers"
         }
-      ],
-      "lastInitial": "P"
+      ]
     },
     {
       "id": "6a977afccb8b38cc6c64ce69",
       "firstName": "Chris",
+      "lastInitial": "C",
       "phone": null,
       "joinedAt": "2026-09-02T01:25:16.443Z",
       "groupsCreated": [
@@ -441,12 +442,12 @@
           "id": "6a977e384015799fdf61e8b8",
           "name": "Caves & Creatures"
         }
-      ],
-      "lastInitial": "C"
+      ]
     },
     {
       "id": "6a9785e2cb8b38cc6c64cef0",
       "firstName": "Eric",
+      "lastInitial": "V",
       "phone": null,
       "joinedAt": "2026-09-02T02:11:46.869Z",
       "groupsCreated": [],
@@ -455,12 +456,12 @@
           "id": "6a977e384015799fdf61e8b8",
           "name": "Caves & Creatures"
         }
-      ],
-      "lastInitial": "V"
+      ]
     },
     {
       "id": "6a97873a80e844d401f9a3d3",
       "firstName": "Elias",
+      "lastInitial": "C",
       "phone": null,
       "joinedAt": "2026-09-02T02:17:30.614Z",
       "groupsCreated": [],
@@ -469,12 +470,12 @@
           "id": "6a95fbafdc39695c69575815",
           "name": "DinDin and Doctrine"
         }
-      ],
-      "lastInitial": "C"
+      ]
     },
     {
       "id": "6a978a95001662d3196ea6fc",
       "firstName": "Daniel",
+      "lastInitial": "P",
       "phone": null,
       "joinedAt": "2026-09-02T02:31:49.942Z",
       "groupsCreated": [],
@@ -483,17 +484,16 @@
           "id": "6a95fbafdc39695c69575815",
           "name": "DinDin and Doctrine"
         }
-      ],
-      "lastInitial": "P"
+      ]
     },
     {
       "id": "6a978bf9001662d3196ea701",
       "firstName": "",
+      "lastInitial": null,
       "phone": null,
       "joinedAt": "2026-09-02T02:37:45.828Z",
       "groupsCreated": [],
-      "groupsMember": [],
-      "lastInitial": null
+      "groupsMember": []
     }
   ],
   "groups": [

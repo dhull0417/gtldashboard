@@ -189,6 +189,7 @@ async function buildDirectory(db, clerkUsers) {
       .collection("users")
       .find({})
       .project({ firstName: 1, lastName: 1, clerkId: 1, createdAt: 1, groups: 1 })
+      // lastName is projected only to derive lastInitial below — the full value never leaves this function.
       .toArray(),
     db
       .collection("groups")
@@ -215,7 +216,7 @@ async function buildDirectory(db, clerkUsers) {
     return {
       id: idStr,
       firstName: u.firstName ?? "",
-      lastName: u.lastName ?? "",
+      lastInitial: (u.lastName ?? "").trim()[0]?.toUpperCase() ?? null,
       phone: phoneMap.get(u.clerkId) ?? null,
       joinedAt: u.createdAt,
       groupsCreated: groups

@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { digitsOnly, formatDate, formatDisplayName } from "../lib/format.js";
 
 function matchesUser(user, query, queryDigits) {
-  const fullName = `${user.firstName} ${user.lastName}`.toLowerCase();
+  const fullName = `${user.firstName} ${user.lastInitial ?? ""}`.toLowerCase();
   if (fullName.includes(query)) return true;
   if (queryDigits && user.phone && digitsOnly(user.phone).includes(queryDigits)) return true;
   return false;
@@ -56,7 +56,7 @@ function UserCard({ user }) {
   return (
     <div className="data-card">
       <div className="data-card-head">
-        <span className="data-card-title">{formatDisplayName(user.firstName, user.lastName)}</span>
+        <span className="data-card-title">{formatDisplayName(user.firstName, user.lastInitial)}</span>
         <span className="data-card-sub">Joined {formatDate(user.joinedAt)}</span>
       </div>
       {user.phone && (

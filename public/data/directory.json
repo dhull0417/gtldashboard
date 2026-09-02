@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "users": [
     {
       "id": "6a92e7642651776280ed14b3",
@@ -221,6 +221,10 @@
         {
           "id": "6a95fbafdc39695c69575815",
           "name": "DinDin and Doctrine"
+        },
+        {
+          "id": "6a977e384015799fdf61e8b8",
+          "name": "Caves & Creatures"
         }
       ]
     },
@@ -266,7 +270,12 @@
       "phone": "+17608129475",
       "joinedAt": "2026-08-31T22:19:59.257Z",
       "groupsCreated": [],
-      "groupsMember": []
+      "groupsMember": [
+        {
+          "id": "6a95fbafdc39695c69575815",
+          "name": "DinDin and Doctrine"
+        }
+      ]
     },
     {
       "id": "6a960346f06804637b261da0",
@@ -404,6 +413,114 @@
       "email": "heathricker@gmail.com",
       "phone": null,
       "joinedAt": "2026-09-01T21:21:57.867Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6a975f5788de372c3b5c1ce2",
+      "firstName": "Ryan",
+      "lastName": "Payne",
+      "email": "rdpayne40@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-09-01T23:27:19.397Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6a9767ee022cab8cbc23efcb",
+      "firstName": "Krystal",
+      "lastName": "Payne",
+      "email": "littlepayne1@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-09-02T00:03:58.772Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a973f8add26353b6aa11245",
+          "name": "Peins y Reekers"
+        }
+      ]
+    },
+    {
+      "id": "6a977afccb8b38cc6c64ce69",
+      "firstName": "Chris",
+      "lastName": "Chaffee",
+      "email": "vgp62j2p2r@privaterelay.appleid.com",
+      "phone": null,
+      "joinedAt": "2026-09-02T01:25:16.443Z",
+      "groupsCreated": [
+        {
+          "id": "6a977e384015799fdf61e8b8",
+          "name": "Caves & Creatures"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a95f44d2b3240168c6443de",
+          "name": "You're My 🏠 🍕"
+        },
+        {
+          "id": "6a95fbafdc39695c69575815",
+          "name": "DinDin and Doctrine"
+        },
+        {
+          "id": "6a977e384015799fdf61e8b8",
+          "name": "Caves & Creatures"
+        }
+      ]
+    },
+    {
+      "id": "6a9785e2cb8b38cc6c64cef0",
+      "firstName": "Eric",
+      "lastName": "Vaubel",
+      "email": "mfdw5gmkg8@privaterelay.appleid.com",
+      "phone": null,
+      "joinedAt": "2026-09-02T02:11:46.869Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a977e384015799fdf61e8b8",
+          "name": "Caves & Creatures"
+        }
+      ]
+    },
+    {
+      "id": "6a97873a80e844d401f9a3d3",
+      "firstName": "Elias",
+      "lastName": "Chaffee",
+      "email": "27chaffelit@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-09-02T02:17:30.614Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a95fbafdc39695c69575815",
+          "name": "DinDin and Doctrine"
+        }
+      ]
+    },
+    {
+      "id": "6a978a95001662d3196ea6fc",
+      "firstName": "Daniel",
+      "lastName": "Pickens",
+      "email": "danielpickens1236@gmail.com",
+      "phone": null,
+      "joinedAt": "2026-09-02T02:31:49.942Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a95fbafdc39695c69575815",
+          "name": "DinDin and Doctrine"
+        }
+      ]
+    },
+    {
+      "id": "6a978bf9001662d3196ea701",
+      "firstName": "",
+      "lastName": "",
+      "email": "sf27ktstng@privaterelay.appleid.com",
+      "phone": null,
+      "joinedAt": "2026-09-02T02:37:45.828Z",
       "groupsCreated": [],
       "groupsMember": []
     }
@@ -651,6 +768,10 @@
         {
           "id": "6a96b223a340f7147074b769",
           "name": "(no name)"
+        },
+        {
+          "id": "6a977afccb8b38cc6c64ce69",
+          "name": "Chris Chaffee"
         }
       ],
       "schedule": {
@@ -690,6 +811,22 @@
         {
           "id": "6a95fc75dc39695c69575870",
           "name": "Laree Williams"
+        },
+        {
+          "id": "6a977afccb8b38cc6c64ce69",
+          "name": "Chris Chaffee"
+        },
+        {
+          "id": "6a97873a80e844d401f9a3d3",
+          "name": "Elias Chaffee"
+        },
+        {
+          "id": "6a95fe0fdc39695c69575881",
+          "name": "Kira Pickens"
+        },
+        {
+          "id": "6a978a95001662d3196ea6fc",
+          "name": "Daniel Pickens"
         }
       ],
       "schedule": {
@@ -809,6 +946,10 @@
         {
           "id": "6a92e8882651776280ed14c7",
           "name": "Devin Payne"
+        },
+        {
+          "id": "6a9767ee022cab8cbc23efcb",
+          "name": "Krystal Payne"
         }
       ],
       "schedule": {
@@ -816,6 +957,40 @@
         "routines": []
       },
       "lastMessageAt": "2026-09-01T21:37:17.483Z"
+    },
+    {
+      "id": "6a977e384015799fdf61e8b8",
+      "name": "Caves & Creatures",
+      "createdAt": "2026-09-02T01:39:04.170Z",
+      "owner": {
+        "id": "6a977afccb8b38cc6c64ce69",
+        "name": "Chris Chaffee"
+      },
+      "moderators": [
+        {
+          "id": "6a95e12300c51fd66ba67abc",
+          "name": "William Chaffee"
+        }
+      ],
+      "members": [
+        {
+          "id": "6a977afccb8b38cc6c64ce69",
+          "name": "Chris Chaffee"
+        },
+        {
+          "id": "6a95e12300c51fd66ba67abc",
+          "name": "William Chaffee"
+        },
+        {
+          "id": "6a9785e2cb8b38cc6c64cef0",
+          "name": "Eric Vaubel"
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": "2026-09-02T02:24:25.964Z"
     }
   ]
 }

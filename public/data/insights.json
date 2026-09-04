@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "signInMethods": {
     "google": 17,
     "email": 5,
@@ -13,7 +13,7 @@
   },
   "softIndicators": {
     "totalUsers": 29,
-    "zipCode": 28,
+    "zipCode": 29,
     "profilePicture": 29
   },
   "userHabits": {

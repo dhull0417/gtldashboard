@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { digitsOnly, formatDate, formatDisplayName } from "../lib/format.js";
+import { capitalize, digitsOnly, formatDate, formatDisplayName } from "../lib/format.js";
 
 function matchesUser(user, query, queryDigits) {
   const fullName = `${user.firstName} ${user.lastInitial ?? ""}`.toLowerCase();
@@ -56,7 +56,10 @@ function UserCard({ user }) {
   return (
     <div className="data-card">
       <div className="data-card-head">
-        <span className="data-card-title">{formatDisplayName(user.firstName, user.lastInitial)}</span>
+        <div className="data-card-head-row">
+          <span className="data-card-title">{formatDisplayName(user.firstName, user.lastInitial)}</span>
+          {user.signInMethod && <span className="data-card-badge">{capitalize(user.signInMethod)}</span>}
+        </div>
         <span className="data-card-sub">Joined {formatDate(user.joinedAt)}</span>
       </div>
       {user.phone && (

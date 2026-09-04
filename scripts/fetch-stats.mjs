@@ -183,6 +183,7 @@ function userName(u) {
 // cares about groups, not 1:1 threads.
 async function buildDirectory(db, clerkUsers) {
   const phoneMap = phoneByClerkId(clerkUsers);
+  const signInMethodByClerkId = new Map(clerkUsers.map((u) => [u.id, classifySignInMethod(u)]));
 
   const [users, groups] = await Promise.all([
     db
@@ -218,6 +219,7 @@ async function buildDirectory(db, clerkUsers) {
       firstName: u.firstName ?? "",
       lastInitial: (u.lastName ?? "").trim()[0]?.toUpperCase() ?? null,
       phone: phoneMap.get(u.clerkId) ?? null,
+      signInMethod: signInMethodByClerkId.get(u.clerkId) ?? "unknown",
       joinedAt: u.createdAt,
       groupsCreated: groups
         .filter((g) => String(g.owner) === idStr)

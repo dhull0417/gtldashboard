@@ -38,13 +38,13 @@
   {
     "date": "2026-09-04",
     "users": 4,
-    "groups": 4,
-    "meetups": 156
+    "groups": 3,
+    "meetups": 52
   },
   {
     "date": "2026-09-05",
-    "users": 0,
-    "groups": 0,
-    "meetups": 0
+    "users": 1,
+    "groups": 2,
+    "meetups": 50
   }
 ]

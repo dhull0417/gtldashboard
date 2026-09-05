@@ -52,10 +52,6 @@
         {
           "id": "6a92fd5b2c5ee9d5d20d7b7c",
           "name": "GroupThat Leadership Meeting"
-        },
-        {
-          "id": "6a9b3dd241739d8b3e61fd32",
-          "name": "Pickleball Stars"
         }
       ],
       "groupsMember": [
@@ -70,10 +66,6 @@
         {
           "id": "6a973f8add26353b6aa11245",
           "name": "Peins y Reekers"
-        },
-        {
-          "id": "6a9b3dd241739d8b3e61fd32",
-          "name": "Pickleball Stars"
         }
       ]
     },
@@ -98,6 +90,10 @@
         {
           "id": "6a93543a49d279b9b57afb38",
           "name": "Come Follow Me"
+        },
+        {
+          "id": "6a9b7d2fa17e3d4acf37ef65",
+          "name": "Book Club"
         }
       ]
     },
@@ -143,8 +139,18 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-08-29T19:47:10.111Z",
-      "groupsCreated": [],
-      "groupsMember": []
+      "groupsCreated": [
+        {
+          "id": "6a9b6455c4da824080f54e6a",
+          "name": "Vasion & Dragons"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a9b6455c4da824080f54e6a",
+          "name": "Vasion & Dragons"
+        }
+      ]
     },
     {
       "id": "6a94e34d334abd8afde82eee",
@@ -422,7 +428,12 @@
       "signInMethod": "google",
       "joinedAt": "2026-09-01T21:21:57.867Z",
       "groupsCreated": [],
-      "groupsMember": []
+      "groupsMember": [
+        {
+          "id": "6a973f8add26353b6aa11245",
+          "name": "Peins y Reekers"
+        }
+      ]
     },
     {
       "id": "6a975f5788de372c3b5c1ce2",
@@ -593,6 +604,26 @@
       "groupsMember": [
         {
           "id": "6a9b3cc0c0598808f1c1dda0",
+          "name": "Book Club"
+        }
+      ]
+    },
+    {
+      "id": "6a9b7ca05993290fd7a483ca",
+      "firstName": "Jenna",
+      "lastInitial": "W",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-05T02:21:20.142Z",
+      "groupsCreated": [
+        {
+          "id": "6a9b7d2fa17e3d4acf37ef65",
+          "name": "Book Club"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a9b7d2fa17e3d4acf37ef65",
           "name": "Book Club"
         }
       ]
@@ -1023,13 +1054,17 @@
         {
           "id": "6a9767ee022cab8cbc23efcb",
           "name": "Krystal P."
+        },
+        {
+          "id": "6a9741f54d3e6c88df089c8d",
+          "name": "Heather R."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-09-01T21:37:17.483Z"
+      "lastMessageAt": "2026-09-05T03:31:38.929Z"
     },
     {
       "id": "6a977e384015799fdf61e8b8",
@@ -1109,18 +1144,18 @@
       "lastMessageAt": null
     },
     {
-      "id": "6a9b3dd241739d8b3e61fd32",
-      "name": "Pickleball Stars",
-      "createdAt": "2026-09-04T21:53:22.515Z",
+      "id": "6a9b6455c4da824080f54e6a",
+      "name": "Vasion & Dragons",
+      "createdAt": "2026-09-05T00:37:41.303Z",
       "owner": {
-        "id": "6a92e8882651776280ed14c7",
-        "name": "Devin P."
+        "id": "6a93373ed476bd5774ac2da4",
+        "name": "claire M."
       },
       "moderators": [],
       "members": [
         {
-          "id": "6a92e8882651776280ed14c7",
-          "name": "Devin P."
+          "id": "6a93373ed476bd5774ac2da4",
+          "name": "claire M."
         }
       ],
       "schedule": {
@@ -1128,6 +1163,41 @@
         "routines": []
       },
       "lastMessageAt": null
+    },
+    {
+      "id": "6a9b7d2fa17e3d4acf37ef65",
+      "name": "Book Club",
+      "createdAt": "2026-09-05T02:23:43.752Z",
+      "owner": {
+        "id": "6a9b7ca05993290fd7a483ca",
+        "name": "Jenna W."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a9b7ca05993290fd7a483ca",
+          "name": "Jenna W."
+        },
+        {
+          "id": "6a92fcd5b00a89418a963faa",
+          "name": "Kim H."
+        }
+      ],
+      "schedule": {
+        "startDate": "2026-09-17T00:00:00.000Z",
+        "routines": [
+          {
+            "frequency": "monthly",
+            "dayTimes": [
+              {
+                "day": 4,
+                "time": "08:30 PM"
+              }
+            ]
+          }
+        ]
+      },
+      "lastMessageAt": "2026-09-05T03:28:28.131Z"
     }
   ]
 }

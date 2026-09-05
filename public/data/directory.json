@@ -66,6 +66,10 @@
         {
           "id": "6a973f8add26353b6aa11245",
           "name": "Peins y Reekers"
+        },
+        {
+          "id": "6a9ba0087d6a84e62460d175",
+          "name": "Pupusas"
         }
       ]
     },
@@ -342,6 +346,10 @@
         {
           "id": "6a973f8add26353b6aa11245",
           "name": "Peins y Reekers"
+        },
+        {
+          "id": "6a9ba0087d6a84e62460d175",
+          "name": "Pupusas"
         }
       ]
     },
@@ -625,6 +633,26 @@
         {
           "id": "6a9b7d2fa17e3d4acf37ef65",
           "name": "Book Club"
+        }
+      ]
+    },
+    {
+      "id": "6a9b9f998505d2216ee0bfcd",
+      "firstName": "Marc",
+      "lastInitial": "D",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-05T04:50:33.031Z",
+      "groupsCreated": [
+        {
+          "id": "6a9ba0087d6a84e62460d175",
+          "name": "Pupusas"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a9ba0087d6a84e62460d175",
+          "name": "Pupusas"
         }
       ]
     }
@@ -1198,6 +1226,35 @@
         ]
       },
       "lastMessageAt": "2026-09-05T03:28:28.131Z"
+    },
+    {
+      "id": "6a9ba0087d6a84e62460d175",
+      "name": "Pupusas",
+      "createdAt": "2026-09-05T04:52:24.988Z",
+      "owner": {
+        "id": "6a9b9f998505d2216ee0bfcd",
+        "name": "Marc D."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a9b9f998505d2216ee0bfcd",
+          "name": "Marc D."
+        },
+        {
+          "id": "6a92e8882651776280ed14c7",
+          "name": "Devin P."
+        },
+        {
+          "id": "6a960636896def9c9ea6072c",
+          "name": "Jay R."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
     }
   ]
 }

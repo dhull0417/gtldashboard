@@ -43,8 +43,14 @@
   },
   {
     "date": "2026-09-05",
-    "users": 2,
+    "users": 3,
     "groups": 3,
     "meetups": 50
+  },
+  {
+    "date": "2026-09-06",
+    "users": 0,
+    "groups": 0,
+    "meetups": 1
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-05",
+  "asOf": "2026-09-06",
   "users": [
     {
       "id": "6a92e7642651776280ed14b3",
@@ -655,6 +655,21 @@
           "name": "Pupusas"
         }
       ]
+    },
+    {
+      "id": "6a9ca2f27d97fee35de68c9e",
+      "firstName": "Hoa",
+      "lastInitial": "R",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-05T23:17:06.008Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a95fbafdc39695c69575815",
+          "name": "DinDin and Doctrine"
+        }
+      ]
     }
   ],
   "groups": [
@@ -959,6 +974,10 @@
         {
           "id": "6a978a95001662d3196ea6fc",
           "name": "Daniel P."
+        },
+        {
+          "id": "6a9ca2f27d97fee35de68c9e",
+          "name": "Hoa R."
         }
       ],
       "schedule": {
@@ -975,7 +994,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-09-01T04:06:06.795Z"
+      "lastMessageAt": "2026-09-05T23:24:06.375Z"
     },
     {
       "id": "6a96590bd4343c648c4acf10",
@@ -1225,7 +1244,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-09-05T03:28:28.131Z"
+      "lastMessageAt": "2026-09-06T00:19:26.310Z"
     },
     {
       "id": "6a9ba0087d6a84e62460d175",

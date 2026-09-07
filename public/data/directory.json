@@ -303,12 +303,7 @@
       "signInMethod": "google",
       "joinedAt": "2026-08-31T22:42:14.010Z",
       "groupsCreated": [],
-      "groupsMember": [
-        {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
-        }
-      ]
+      "groupsMember": []
     },
     {
       "id": "6a9603ba6002d217da771dda",
@@ -939,10 +934,6 @@
         {
           "id": "6a95fba92856eb5dfc256587",
           "name": "Jen C."
-        },
-        {
-          "id": "6a960346f06804637b261da0",
-          "name": "Curtis H."
         },
         {
           "id": "6a9603ba6002d217da771dda",

@@ -336,6 +336,18 @@
         {
           "id": "6a973f8add26353b6aa11245",
           "name": "Peins y Reekers"
+        },
+        {
+          "id": "6a9e459ae813afff7d4ae6fa",
+          "name": "Meds"
+        },
+        {
+          "id": "6a9e45da56ee621a406c2375",
+          "name": "Garbages out"
+        },
+        {
+          "id": "6a9e463a55bc2a836d582211",
+          "name": "Recycling out"
         }
       ],
       "groupsMember": [
@@ -350,6 +362,18 @@
         {
           "id": "6a9ba0087d6a84e62460d175",
           "name": "Pupusas"
+        },
+        {
+          "id": "6a9e459ae813afff7d4ae6fa",
+          "name": "Meds"
+        },
+        {
+          "id": "6a9e45da56ee621a406c2375",
+          "name": "Garbages out"
+        },
+        {
+          "id": "6a9e463a55bc2a836d582211",
+          "name": "Recycling out"
         }
       ]
     },
@@ -668,6 +692,26 @@
         {
           "id": "6a95fbafdc39695c69575815",
           "name": "DinDin and Doctrine"
+        }
+      ]
+    },
+    {
+      "id": "6a9e46b0d3eb69f9024c2774",
+      "firstName": "",
+      "lastInitial": null,
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-09-07T05:08:00.527Z",
+      "groupsCreated": [
+        {
+          "id": "6a9e46c6d3eb69f9024c2783",
+          "name": "H base"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6a9e46c6d3eb69f9024c2783",
+          "name": "H base"
         }
       ]
     }
@@ -1267,6 +1311,90 @@
         {
           "id": "6a960636896def9c9ea6072c",
           "name": "Jay R."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6a9e459ae813afff7d4ae6fa",
+      "name": "Meds",
+      "createdAt": "2026-09-07T05:03:22.037Z",
+      "owner": {
+        "id": "6a960636896def9c9ea6072c",
+        "name": "Jay R."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a960636896def9c9ea6072c",
+          "name": "Jay R."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6a9e45da56ee621a406c2375",
+      "name": "Garbages out",
+      "createdAt": "2026-09-07T05:04:26.685Z",
+      "owner": {
+        "id": "6a960636896def9c9ea6072c",
+        "name": "Jay R."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a960636896def9c9ea6072c",
+          "name": "Jay R."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6a9e463a55bc2a836d582211",
+      "name": "Recycling out",
+      "createdAt": "2026-09-07T05:06:02.400Z",
+      "owner": {
+        "id": "6a960636896def9c9ea6072c",
+        "name": "Jay R."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a960636896def9c9ea6072c",
+          "name": "Jay R."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6a9e46c6d3eb69f9024c2783",
+      "name": "H base",
+      "createdAt": "2026-09-07T05:08:22.877Z",
+      "owner": {
+        "id": "6a9e46b0d3eb69f9024c2774",
+        "name": "(no name)"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a9e46b0d3eb69f9024c2774",
+          "name": "(no name)"
         }
       ],
       "schedule": {

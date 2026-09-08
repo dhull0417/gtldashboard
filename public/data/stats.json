@@ -58,5 +58,11 @@
     "users": 1,
     "groups": 4,
     "meetups": 130
+  },
+  {
+    "date": "2026-09-08",
+    "users": 5,
+    "groups": 1,
+    "meetups": 26
   }
 ]

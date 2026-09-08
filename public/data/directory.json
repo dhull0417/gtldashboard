@@ -785,6 +785,16 @@
       "joinedAt": "2026-09-08T03:39:28.167Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6a9f894d4dbe4e4f64dd438b",
+      "firstName": "Geoff",
+      "lastInitial": "H",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-08T04:04:29.289Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [

@@ -1,8 +1,8 @@
 {
   "asOf": "2026-09-08",
   "signInMethods": {
-    "google": 26,
-    "email": 7,
+    "google": 27,
+    "email": 6,
     "apple": 7,
     "phone": 4,
     "unknown": 0
@@ -18,12 +18,12 @@
   },
   "userHabits": {
     "groupCount": 20,
-    "avgGroupSize": 2.95,
+    "avgGroupSize": 2.9,
     "avgGroupsPerUser": 0.47,
-    "creatorCount": 15,
-    "avgGroupsPerCreator": 1.33,
+    "creatorCount": 14,
+    "avgGroupsPerCreator": 1.43,
     "frequency": {
-      "daily": 1,
+      "daily": 0,
       "weekly": 5,
       "biweekly": 1,
       "monthly": 3

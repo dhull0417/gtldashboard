@@ -147,12 +147,20 @@
         {
           "id": "6a9b6455c4da824080f54e6a",
           "name": "Vasion & Dragons"
+        },
+        {
+          "id": "6aa08ea0d6152dcda168cdca",
+          "name": "Larry Fan Club"
         }
       ],
       "groupsMember": [
         {
           "id": "6a9b6455c4da824080f54e6a",
           "name": "Vasion & Dragons"
+        },
+        {
+          "id": "6aa08ea0d6152dcda168cdca",
+          "name": "Larry Fan Club"
         }
       ]
     },
@@ -347,10 +355,6 @@
       ],
       "groupsMember": [
         {
-          "id": "6a96590bd4343c648c4acf10",
-          "name": "Mesa Fiesta"
-        },
-        {
           "id": "6a973f8add26353b6aa11245",
           "name": "Peins y Reekers"
         },
@@ -407,20 +411,10 @@
       "firstName": "Bob",
       "lastInitial": "G",
       "phone": null,
-      "signInMethod": "email",
+      "signInMethod": "google",
       "joinedAt": "2026-09-01T04:45:39.259Z",
-      "groupsCreated": [
-        {
-          "id": "6a96590bd4343c648c4acf10",
-          "name": "Mesa Fiesta"
-        }
-      ],
-      "groupsMember": [
-        {
-          "id": "6a96590bd4343c648c4acf10",
-          "name": "Mesa Fiesta"
-        }
-      ]
+      "groupsCreated": [],
+      "groupsMember": []
     },
     {
       "id": "6a96a93f218bb8c9b7da6ee3",
@@ -1118,65 +1112,6 @@
       "lastMessageAt": "2026-09-05T23:24:06.375Z"
     },
     {
-      "id": "6a96590bd4343c648c4acf10",
-      "name": "Mesa Fiesta",
-      "createdAt": "2026-09-01T04:48:11.954Z",
-      "owner": {
-        "id": "6a9658730328f887d201641d",
-        "name": "Bob G."
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6a9658730328f887d201641d",
-          "name": "Bob G."
-        },
-        {
-          "id": "6a960636896def9c9ea6072c",
-          "name": "Jay R."
-        }
-      ],
-      "schedule": {
-        "startDate": "2026-08-31T00:00:00.000Z",
-        "routines": [
-          {
-            "frequency": "daily",
-            "dayTimes": [
-              {
-                "day": 0,
-                "time": "08:00 PM"
-              },
-              {
-                "day": 1,
-                "time": "08:00 PM"
-              },
-              {
-                "day": 2,
-                "time": "08:00 PM"
-              },
-              {
-                "day": 3,
-                "time": "08:00 PM"
-              },
-              {
-                "day": 4,
-                "time": "08:00 PM"
-              },
-              {
-                "day": 5,
-                "time": "08:00 PM"
-              },
-              {
-                "day": 6,
-                "time": "08:00 PM"
-              }
-            ]
-          }
-        ]
-      },
-      "lastMessageAt": "2026-09-01T04:49:36.243Z"
-    },
-    {
       "id": "6a972bcd02ade465e42a97a6",
       "name": "Guys n Games",
       "createdAt": "2026-09-01T19:47:26.001Z",
@@ -1509,6 +1444,27 @@
         {
           "id": "6a9f7a4e60feda4f3f594955",
           "name": "Jay R."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6aa08ea0d6152dcda168cdca",
+      "name": "Larry Fan Club",
+      "createdAt": "2026-09-08T22:39:28.380Z",
+      "owner": {
+        "id": "6a93373ed476bd5774ac2da4",
+        "name": "claire M."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a93373ed476bd5774ac2da4",
+          "name": "claire M."
         }
       ],
       "schedule": {

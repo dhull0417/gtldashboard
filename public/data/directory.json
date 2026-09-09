@@ -147,20 +147,12 @@
         {
           "id": "6a9b6455c4da824080f54e6a",
           "name": "Vasion & Dragons"
-        },
-        {
-          "id": "6aa08ea0d6152dcda168cdca",
-          "name": "Larry Fan Club"
         }
       ],
       "groupsMember": [
         {
           "id": "6a9b6455c4da824080f54e6a",
           "name": "Vasion & Dragons"
-        },
-        {
-          "id": "6aa08ea0d6152dcda168cdca",
-          "name": "Larry Fan Club"
         }
       ]
     },
@@ -1444,27 +1436,6 @@
         {
           "id": "6a9f7a4e60feda4f3f594955",
           "name": "Jay R."
-        }
-      ],
-      "schedule": {
-        "startDate": null,
-        "routines": []
-      },
-      "lastMessageAt": null
-    },
-    {
-      "id": "6aa08ea0d6152dcda168cdca",
-      "name": "Larry Fan Club",
-      "createdAt": "2026-09-08T22:39:28.380Z",
-      "owner": {
-        "id": "6a93373ed476bd5774ac2da4",
-        "name": "claire M."
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6a93373ed476bd5774ac2da4",
-          "name": "claire M."
         }
       ],
       "schedule": {

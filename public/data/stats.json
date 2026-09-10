@@ -69,6 +69,12 @@
     "date": "2026-09-09",
     "users": 10,
     "groups": 4,
-    "meetups": 152
+    "meetups": 101
+  },
+  {
+    "date": "2026-09-10",
+    "users": 2,
+    "groups": 1,
+    "meetups": 51
   }
 ]

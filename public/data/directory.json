@@ -8,12 +8,7 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-08-29T14:06:28.608Z",
-      "groupsCreated": [
-        {
-          "id": "6a934f556dc7aa9cd637ce15",
-          "name": "Sunday Food & Fun"
-        }
-      ],
+      "groupsCreated": [],
       "groupsMember": [
         {
           "id": "6a92faea61654a6a65362145",
@@ -97,6 +92,10 @@
       "signInMethod": "google",
       "joinedAt": "2026-08-29T15:37:57.623Z",
       "groupsCreated": [
+        {
+          "id": "6a934f556dc7aa9cd637ce15",
+          "name": "Sunday Food & Fun"
+        },
         {
           "id": "6a93543a49d279b9b57afb38",
           "name": "Come Follow Me"
@@ -1157,13 +1156,13 @@
       "name": "Sunday Food & Fun",
       "createdAt": "2026-08-29T21:29:57.670Z",
       "owner": {
-        "id": "6a92e7642651776280ed14b3",
-        "name": "Dallin H."
+        "id": "6a92fcd5b00a89418a963faa",
+        "name": "Kim H."
       },
       "moderators": [
         {
-          "id": "6a92fcd5b00a89418a963faa",
-          "name": "Kim H."
+          "id": "6a92e7642651776280ed14b3",
+          "name": "Dallin H."
         }
       ],
       "members": [

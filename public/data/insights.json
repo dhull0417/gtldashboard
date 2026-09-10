@@ -3,18 +3,18 @@
   "signInMethods": {
     "google": 33,
     "email": 9,
-    "apple": 12,
+    "apple": 13,
     "phone": 4,
     "unknown": 0
   },
   "permissions": {
-    "totalUsers": 57,
-    "notifications": 42
+    "totalUsers": 58,
+    "notifications": 43
   },
   "softIndicators": {
-    "totalUsers": 57,
-    "zipCode": 52,
-    "profilePicture": 57
+    "totalUsers": 58,
+    "zipCode": 53,
+    "profilePicture": 58
   },
   "userHabits": {
     "groupCount": 23,

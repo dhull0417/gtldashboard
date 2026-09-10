@@ -1030,6 +1030,16 @@
       "joinedAt": "2026-09-10T13:35:39.463Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6aa32140118124754e3a0161",
+      "firstName": "Dallin",
+      "lastInitial": "H",
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-09-10T21:29:36.188Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [

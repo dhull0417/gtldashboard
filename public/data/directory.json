@@ -969,8 +969,8 @@
     },
     {
       "id": "6aa1da489a4fd6eff0137d79",
-      "firstName": "",
-      "lastInitial": null,
+      "firstName": "Amber",
+      "lastInitial": "G",
       "phone": null,
       "signInMethod": "apple",
       "joinedAt": "2026-09-09T22:14:32.173Z",
@@ -1011,6 +1011,26 @@
           "name": "OG PMK Squad Monthly Reunion"
         }
       ]
+    },
+    {
+      "id": "6aa229c203d51cb081da0647",
+      "firstName": "",
+      "lastInitial": null,
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-09-10T03:53:38.739Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6aa2b22b3e69e89b71cc070d",
+      "firstName": "",
+      "lastInitial": null,
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-09-10T13:35:39.463Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -1714,14 +1734,14 @@
         },
         {
           "id": "6aa1da489a4fd6eff0137d79",
-          "name": "(no name)"
+          "name": "Amber G."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-09-09T22:15:36.087Z"
+      "lastMessageAt": "2026-09-10T13:00:06.182Z"
     },
     {
       "id": "6aa1ccbdc64503931302fb5c",

@@ -1049,6 +1049,21 @@
       "joinedAt": "2026-09-10T21:29:36.188Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6aa470ec02bee97a71ed248a",
+      "firstName": "Cort",
+      "lastInitial": "B",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-11T21:21:48.299Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6aa1ccbdc64503931302fb5c",
+          "name": "OG PMK Squad Monthly Reunion"
+        }
+      ]
     }
   ],
   "groups": [
@@ -1798,13 +1813,17 @@
         {
           "id": "6aa219f1f44c675af9881d3a",
           "name": "Abby S."
+        },
+        {
+          "id": "6aa470ec02bee97a71ed248a",
+          "name": "Cort B."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-09-10T03:14:37.696Z"
+      "lastMessageAt": "2026-09-11T21:23:16.189Z"
     },
     {
       "id": "6aa1d0d97a66c820ddeaa34e",

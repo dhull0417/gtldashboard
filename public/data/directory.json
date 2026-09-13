@@ -1090,6 +1090,34 @@
       "joinedAt": "2026-09-13T00:53:05.263Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6aa622ad8db996eb184ce7bf",
+      "firstName": "",
+      "lastInitial": null,
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-09-13T04:12:29.495Z",
+      "groupsCreated": [
+        {
+          "id": "6aa624fc8db996eb184ce7dc",
+          "name": "Sunday dinners"
+        },
+        {
+          "id": "6aa6c79e6d36bab4ce95ba9b",
+          "name": "Eq meetings."
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6aa624fc8db996eb184ce7dc",
+          "name": "Sunday dinners"
+        },
+        {
+          "id": "6aa6c79e6d36bab4ce95ba9b",
+          "name": "Eq meetings."
+        }
+      ]
     }
   ],
   "groups": [
@@ -1979,6 +2007,58 @@
         {
           "id": "6a92e7642651776280ed14b3",
           "name": "Dallin H."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6aa624fc8db996eb184ce7dc",
+      "name": "Sunday dinners",
+      "createdAt": "2026-09-13T04:22:20.718Z",
+      "owner": {
+        "id": "6aa622ad8db996eb184ce7bf",
+        "name": "(no name)"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6aa622ad8db996eb184ce7bf",
+          "name": "(no name)"
+        }
+      ],
+      "schedule": {
+        "startDate": "2026-09-13T00:00:00.000Z",
+        "routines": [
+          {
+            "frequency": "weekly",
+            "dayTimes": [
+              {
+                "day": 0,
+                "time": "05:00 PM"
+              }
+            ]
+          }
+        ]
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6aa6c79e6d36bab4ce95ba9b",
+      "name": "Eq meetings.",
+      "createdAt": "2026-09-13T15:56:14.623Z",
+      "owner": {
+        "id": "6aa622ad8db996eb184ce7bf",
+        "name": "(no name)"
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6aa622ad8db996eb184ce7bf",
+          "name": "(no name)"
         }
       ],
       "schedule": {

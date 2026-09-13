@@ -8,23 +8,23 @@
     "unknown": 0
   },
   "permissions": {
-    "totalUsers": 60,
-    "notifications": 45
+    "totalUsers": 61,
+    "notifications": 46
   },
   "softIndicators": {
-    "totalUsers": 60,
-    "zipCode": 55,
-    "profilePicture": 60
+    "totalUsers": 61,
+    "zipCode": 56,
+    "profilePicture": 61
   },
   "userHabits": {
-    "groupCount": 26,
-    "avgGroupSize": 3.12,
-    "avgGroupsPerUser": 0.43,
-    "creatorCount": 16,
-    "avgGroupsPerCreator": 1.63,
+    "groupCount": 28,
+    "avgGroupSize": 2.96,
+    "avgGroupsPerUser": 0.46,
+    "creatorCount": 17,
+    "avgGroupsPerCreator": 1.65,
     "frequency": {
       "daily": 0,
-      "weekly": 6,
+      "weekly": 7,
       "biweekly": 1,
       "monthly": 4
     }

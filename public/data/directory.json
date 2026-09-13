@@ -1118,6 +1118,21 @@
           "name": "Eq meetings."
         }
       ]
+    },
+    {
+      "id": "6aa6d07682c01d5940941978",
+      "firstName": "Danny",
+      "lastInitial": "C",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-13T16:33:58.580Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6aa6c79e6d36bab4ce95ba9b",
+          "name": "Eq meetings."
+        }
+      ]
     }
   ],
   "groups": [
@@ -2059,13 +2074,17 @@
         {
           "id": "6aa622ad8db996eb184ce7bf",
           "name": "(no name)"
+        },
+        {
+          "id": "6aa6d07682c01d5940941978",
+          "name": "Danny C."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": null
+      "lastMessageAt": "2026-09-13T16:34:43.159Z"
     }
   ]
 }

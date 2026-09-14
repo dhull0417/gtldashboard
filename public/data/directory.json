@@ -1218,6 +1218,21 @@
           "name": "Monday Night GGs"
         }
       ]
+    },
+    {
+      "id": "6aa84830107025443e82257c",
+      "firstName": "James",
+      "lastInitial": "C",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-14T19:17:04.390Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6aa82456a318796e010d0859",
+          "name": "Monday Night GGs"
+        }
+      ]
     }
   ],
   "groups": [
@@ -2209,6 +2224,10 @@
         {
           "id": "6aa842b2b32862097bbf5726",
           "name": "(no name)"
+        },
+        {
+          "id": "6aa84830107025443e82257c",
+          "name": "James C."
         }
       ],
       "schedule": {

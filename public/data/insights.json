@@ -8,13 +8,13 @@
     "unknown": 0
   },
   "permissions": {
-    "totalUsers": 78,
+    "totalUsers": 79,
     "notifications": 62
   },
   "softIndicators": {
-    "totalUsers": 78,
+    "totalUsers": 79,
     "zipCode": 70,
-    "profilePicture": 78
+    "profilePicture": 79
   },
   "userHabits": {
     "groupCount": 30,

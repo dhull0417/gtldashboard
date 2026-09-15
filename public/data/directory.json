@@ -1401,6 +1401,16 @@
           "name": "Santa Clara Youth Council (SCYC) Meeting"
         }
       ]
+    },
+    {
+      "id": "6aa8f0940992e7ce34067975",
+      "firstName": "",
+      "lastInitial": null,
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-09-15T07:15:32.405Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [

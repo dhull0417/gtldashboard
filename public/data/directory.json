@@ -2,54 +2,6 @@
   "asOf": "2026-09-17",
   "users": [
     {
-      "id": "6a92e7642651776280ed14b3",
-      "firstName": "Dallin",
-      "lastInitial": "H",
-      "phone": null,
-      "signInMethod": "google",
-      "joinedAt": "2026-08-29T14:06:28.608Z",
-      "groupsCreated": [
-        {
-          "id": "6aa453ab27269081651b5c2c",
-          "name": "Test"
-        },
-        {
-          "id": "6aa5d4f06076d59119512cb8",
-          "name": "Basketball squad"
-        }
-      ],
-      "groupsMember": [
-        {
-          "id": "6a92faea61654a6a65362145",
-          "name": "Santa Clara 18th Ward Temple Men"
-        },
-        {
-          "id": "6a934f556dc7aa9cd637ce15",
-          "name": "Sunday Food & Fun"
-        },
-        {
-          "id": "6a93543a49d279b9b57afb38",
-          "name": "Come Follow Me"
-        },
-        {
-          "id": "6a92fd5b2c5ee9d5d20d7b7c",
-          "name": "GroupThat Leadership Meeting"
-        },
-        {
-          "id": "6a972bcd02ade465e42a97a6",
-          "name": "Guys n Games"
-        },
-        {
-          "id": "6aa453ab27269081651b5c2c",
-          "name": "Test"
-        },
-        {
-          "id": "6aa5d4f06076d59119512cb8",
-          "name": "Basketball squad"
-        }
-      ]
-    },
-    {
       "id": "6a92e8882651776280ed14c7",
       "firstName": "Devin",
       "lastInitial": "P",
@@ -1079,16 +1031,6 @@
       "groupsMember": []
     },
     {
-      "id": "6aa32140118124754e3a0161",
-      "firstName": "Dallin",
-      "lastInitial": "H",
-      "phone": null,
-      "signInMethod": "apple",
-      "joinedAt": "2026-09-10T21:29:36.188Z",
-      "groupsCreated": [],
-      "groupsMember": []
-    },
-    {
       "id": "6aa470ec02bee97a71ed248a",
       "firstName": "Cort",
       "lastInitial": "B",
@@ -1431,6 +1373,51 @@
       "joinedAt": "2026-09-16T21:30:03.730Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6aab6a9ab0c680db7b092f08",
+      "firstName": "Dallin",
+      "lastInitial": "H",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-17T04:20:42.365Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a92fd5b2c5ee9d5d20d7b7c",
+          "name": "GroupThat Leadership Meeting"
+        }
+      ]
+    },
+    {
+      "id": "6aab6aa03ac49b76bec3de6e",
+      "firstName": "No Profile",
+      "lastInitial": "P",
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-09-17T04:20:48.747Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6aab6ad1b0c680db7b092f1f",
+      "firstName": "No Profile",
+      "lastInitial": "P",
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-09-17T04:21:37.466Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6aac1838cb0aca4cc9465c75",
+      "firstName": "Amber",
+      "lastInitial": "G",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-17T16:41:28.716Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -1447,10 +1434,6 @@
         {
           "id": "6a92e8882651776280ed14c7",
           "name": "Devin P."
-        },
-        {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin H."
         }
       ],
       "schedule": {
@@ -1479,12 +1462,12 @@
       },
       "moderators": [
         {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin H."
-        },
-        {
           "id": "6a95e12300c51fd66ba67abc",
           "name": "William C."
+        },
+        {
+          "id": "6aab6a9ab0c680db7b092f08",
+          "name": "Dallin H."
         }
       ],
       "members": [
@@ -1493,12 +1476,12 @@
           "name": "Devin P."
         },
         {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin H."
-        },
-        {
           "id": "6a95e12300c51fd66ba67abc",
           "name": "William C."
+        },
+        {
+          "id": "6aab6a9ab0c680db7b092f08",
+          "name": "Dallin H."
         }
       ],
       "schedule": {
@@ -1515,7 +1498,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-09-17T02:36:15.637Z"
+      "lastMessageAt": "2026-09-17T04:25:45.974Z"
     },
     {
       "id": "6a930a5594072a881a89bb7f",
@@ -1560,17 +1543,8 @@
         "id": "6a92fcd5b00a89418a963faa",
         "name": "Kim H."
       },
-      "moderators": [
-        {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin H."
-        }
-      ],
+      "moderators": [],
       "members": [
-        {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin H."
-        },
         {
           "id": "6a92fcd5b00a89418a963faa",
           "name": "Kim H."
@@ -1617,10 +1591,6 @@
         {
           "id": "6a92fcd5b00a89418a963faa",
           "name": "Kim H."
-        },
-        {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin H."
         }
       ],
       "schedule": {
@@ -1766,10 +1736,6 @@
         {
           "id": "6a94fecac99a57f8a912d248",
           "name": "Mitchell S."
-        },
-        {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin H."
         }
       ],
       "schedule": {
@@ -2141,7 +2107,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-09-10T13:00:06.182Z"
+      "lastMessageAt": "2026-09-17T16:40:36.884Z"
     },
     {
       "id": "6aa1ccbdc64503931302fb5c",
@@ -2262,48 +2228,6 @@
             ]
           }
         ]
-      },
-      "lastMessageAt": null
-    },
-    {
-      "id": "6aa453ab27269081651b5c2c",
-      "name": "Test",
-      "createdAt": "2026-09-11T19:16:59.513Z",
-      "owner": {
-        "id": "6a92e7642651776280ed14b3",
-        "name": "Dallin H."
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin H."
-        }
-      ],
-      "schedule": {
-        "startDate": null,
-        "routines": []
-      },
-      "lastMessageAt": "2026-09-11T19:17:34.983Z"
-    },
-    {
-      "id": "6aa5d4f06076d59119512cb8",
-      "name": "Basketball squad",
-      "createdAt": "2026-09-12T22:40:48.947Z",
-      "owner": {
-        "id": "6a92e7642651776280ed14b3",
-        "name": "Dallin H."
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6a92e7642651776280ed14b3",
-          "name": "Dallin H."
-        }
-      ],
-      "schedule": {
-        "startDate": null,
-        "routines": []
       },
       "lastMessageAt": null
     },

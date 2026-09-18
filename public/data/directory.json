@@ -597,7 +597,7 @@
       "firstName": "Lucas",
       "lastInitial": "T",
       "phone": null,
-      "signInMethod": "email",
+      "signInMethod": "google",
       "joinedAt": "2026-09-04T21:53:14.606Z",
       "groupsCreated": [],
       "groupsMember": [

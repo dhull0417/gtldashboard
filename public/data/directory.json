@@ -247,6 +247,10 @@
         {
           "id": "6aa87510d914a441bbfd5b88",
           "name": "Santa Clara Youth Council (SCYC) Meeting"
+        },
+        {
+          "id": "6aaef07677edb4d3cc6e4484",
+          "name": "Buckeye Tailgating"
         }
       ]
     },
@@ -1057,6 +1061,14 @@
         {
           "id": "6aa87510d914a441bbfd5b88",
           "name": "Santa Clara Youth Council (SCYC) Meeting"
+        },
+        {
+          "id": "6aaef07677edb4d3cc6e4484",
+          "name": "Buckeye Tailgating"
+        },
+        {
+          "id": "6a95fbafdc39695c69575815",
+          "name": "DinDin and Doctrine"
         }
       ]
     },
@@ -1436,6 +1448,51 @@
       "joinedAt": "2026-09-17T16:41:28.716Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6aaeee33f369d4e8ed5f2815",
+      "firstName": "debra",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-19T20:18:59.780Z",
+      "groupsCreated": [
+        {
+          "id": "6aaef07677edb4d3cc6e4484",
+          "name": "Buckeye Tailgating"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6aaef07677edb4d3cc6e4484",
+          "name": "Buckeye Tailgating"
+        }
+      ]
+    },
+    {
+      "id": "6aaefb30b185770bfcf08a83",
+      "firstName": "Dallin",
+      "lastInitial": "H",
+      "phone": "+13854829166",
+      "signInMethod": "phone",
+      "joinedAt": "2026-09-19T21:14:24.305Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6aaefe3ea4285bb8b94fb32f",
+      "firstName": "Dylan",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-19T21:27:26.224Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6aaef07677edb4d3cc6e4484",
+          "name": "Buckeye Tailgating"
+        }
+      ]
     }
   ],
   "groups": [
@@ -1723,6 +1780,10 @@
         {
           "id": "6a9ca2f27d97fee35de68c9e",
           "name": "Hoa R."
+        },
+        {
+          "id": "6aa5f3f1e67b51a5d8f5362a",
+          "name": "Jennifer C."
         }
       ],
       "schedule": {
@@ -2284,7 +2345,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-09-19T18:47:43.697Z"
+      "lastMessageAt": "2026-09-19T22:11:51.995Z"
     },
     {
       "id": "6aa782be75152b0764e5e4ab",
@@ -2485,6 +2546,39 @@
         {
           "id": "6aab6a9ab0c680db7b092f08",
           "name": "Dallin H."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6aaef07677edb4d3cc6e4484",
+      "name": "Buckeye Tailgating",
+      "createdAt": "2026-09-19T20:28:39.003Z",
+      "owner": {
+        "id": "6aaeee33f369d4e8ed5f2815",
+        "name": "debra S."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6aaeee33f369d4e8ed5f2815",
+          "name": "debra S."
+        },
+        {
+          "id": "6a95e12300c51fd66ba67abc",
+          "name": "William C."
+        },
+        {
+          "id": "6aa5f3f1e67b51a5d8f5362a",
+          "name": "Jennifer C."
+        },
+        {
+          "id": "6aaefe3ea4285bb8b94fb32f",
+          "name": "Dylan S."
         }
       ],
       "schedule": {

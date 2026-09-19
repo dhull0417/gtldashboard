@@ -1386,7 +1386,12 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-09-17T04:20:42.365Z",
-      "groupsCreated": [],
+      "groupsCreated": [
+        {
+          "id": "6aaee12dd060e59211ac28a3",
+          "name": "Test"
+        }
+      ],
       "groupsMember": [
         {
           "id": "6a92fd5b2c5ee9d5d20d7b7c",
@@ -1395,6 +1400,10 @@
         {
           "id": "6a972bcd02ade465e42a97a6",
           "name": "Guys n Games"
+        },
+        {
+          "id": "6aaee12dd060e59211ac28a3",
+          "name": "Test"
         }
       ]
     },
@@ -2275,7 +2284,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-09-14T21:34:59.254Z"
+      "lastMessageAt": "2026-09-19T18:47:43.697Z"
     },
     {
       "id": "6aa782be75152b0764e5e4ab",
@@ -2462,6 +2471,27 @@
         ]
       },
       "lastMessageAt": "2026-09-17T03:00:53.220Z"
+    },
+    {
+      "id": "6aaee12dd060e59211ac28a3",
+      "name": "Test",
+      "createdAt": "2026-09-19T19:23:25.810Z",
+      "owner": {
+        "id": "6aab6a9ab0c680db7b092f08",
+        "name": "Dallin H."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6aab6a9ab0c680db7b092f08",
+          "name": "Dallin H."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
     }
   ]
 }

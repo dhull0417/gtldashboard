@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-18",
+  "asOf": "2026-09-19",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -1372,7 +1372,12 @@
       "signInMethod": "apple",
       "joinedAt": "2026-09-16T21:30:03.730Z",
       "groupsCreated": [],
-      "groupsMember": []
+      "groupsMember": [
+        {
+          "id": "6a973f8add26353b6aa11245",
+          "name": "Peins y Reekers"
+        }
+      ]
     },
     {
       "id": "6aab6a9ab0c680db7b092f08",
@@ -1781,6 +1786,10 @@
         {
           "id": "6a9f7a4e60feda4f3f594955",
           "name": "Jay R."
+        },
+        {
+          "id": "6aab0a5b335963a28626afec",
+          "name": "Heather R."
         }
       ],
       "schedule": {

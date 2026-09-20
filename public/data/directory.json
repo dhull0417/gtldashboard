@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-19",
+  "asOf": "2026-09-20",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -1416,6 +1416,10 @@
         {
           "id": "6aaee12dd060e59211ac28a3",
           "name": "Test"
+        },
+        {
+          "id": "6a934f556dc7aa9cd637ce15",
+          "name": "Sunday Food & Fun"
         }
       ]
     },
@@ -1486,6 +1490,21 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-09-19T21:27:26.224Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6aaef07677edb4d3cc6e4484",
+          "name": "Buckeye Tailgating"
+        }
+      ]
+    },
+    {
+      "id": "6aaf4243f32c95ae99725662",
+      "firstName": "Justin",
+      "lastInitial": "B",
+      "phone": "+18322339460",
+      "signInMethod": "phone",
+      "joinedAt": "2026-09-20T02:17:39.225Z",
       "groupsCreated": [],
       "groupsMember": [
         {
@@ -1635,6 +1654,10 @@
         {
           "id": "6a94fecac99a57f8a912d248",
           "name": "Mitchell S."
+        },
+        {
+          "id": "6aab6a9ab0c680db7b092f08",
+          "name": "Dallin H."
         }
       ],
       "schedule": {
@@ -1800,7 +1823,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-09-05T23:24:06.375Z"
+      "lastMessageAt": "2026-09-20T00:10:27.125Z"
     },
     {
       "id": "6a972bcd02ade465e42a97a6",
@@ -2579,13 +2602,17 @@
         {
           "id": "6aaefe3ea4285bb8b94fb32f",
           "name": "Dylan S."
+        },
+        {
+          "id": "6aaf4243f32c95ae99725662",
+          "name": "Justin B."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": null
+      "lastMessageAt": "2026-09-20T03:43:26.396Z"
     }
   ]
 }

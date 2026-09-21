@@ -1401,7 +1401,11 @@
       "groupsCreated": [
         {
           "id": "6aaee12dd060e59211ac28a3",
-          "name": "Test"
+          "name": "Testing"
+        },
+        {
+          "id": "6ab1adb66d2d4f4f6b0b73af",
+          "name": "Noice"
         }
       ],
       "groupsMember": [
@@ -1415,11 +1419,15 @@
         },
         {
           "id": "6aaee12dd060e59211ac28a3",
-          "name": "Test"
+          "name": "Testing"
         },
         {
           "id": "6a934f556dc7aa9cd637ce15",
           "name": "Sunday Food & Fun"
+        },
+        {
+          "id": "6ab1adb66d2d4f4f6b0b73af",
+          "name": "Noice"
         }
       ]
     },
@@ -1545,8 +1553,8 @@
     },
     {
       "id": "6ab195a16230ebe8c01b57f7",
-      "firstName": "New Member",
-      "lastInitial": null,
+      "firstName": "Ty",
+      "lastInitial": "F",
       "phone": null,
       "signInMethod": "apple",
       "joinedAt": "2026-09-21T20:37:53.116Z",
@@ -2516,7 +2524,7 @@
         },
         {
           "id": "6ab195a16230ebe8c01b57f7",
-          "name": "New Member"
+          "name": "Ty F."
         },
         {
           "id": "6ab188087fa834ccd7b58dda",
@@ -2527,7 +2535,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-09-21T21:08:21.183Z"
+      "lastMessageAt": "2026-09-21T22:44:11.186Z"
     },
     {
       "id": "6aa87510d914a441bbfd5b88",
@@ -2615,7 +2623,7 @@
     },
     {
       "id": "6aaee12dd060e59211ac28a3",
-      "name": "Test",
+      "name": "Testing",
       "createdAt": "2026-09-19T19:23:25.810Z",
       "owner": {
         "id": "6aab6a9ab0c680db7b092f08",
@@ -2670,6 +2678,27 @@
         "routines": []
       },
       "lastMessageAt": "2026-09-20T03:43:26.396Z"
+    },
+    {
+      "id": "6ab1adb66d2d4f4f6b0b73af",
+      "name": "Noice",
+      "createdAt": "2026-09-21T22:20:38.957Z",
+      "owner": {
+        "id": "6aab6a9ab0c680db7b092f08",
+        "name": "Dallin H."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6aab6a9ab0c680db7b092f08",
+          "name": "Dallin H."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
     }
   ]
 }

@@ -1301,7 +1301,7 @@
       "firstName": "Alayna",
       "lastInitial": "N",
       "phone": null,
-      "signInMethod": "email",
+      "signInMethod": "google",
       "joinedAt": "2026-09-15T00:38:44.387Z",
       "groupsCreated": [],
       "groupsMember": [
@@ -1358,8 +1358,8 @@
     },
     {
       "id": "6aa8f0940992e7ce34067975",
-      "firstName": "",
-      "lastInitial": null,
+      "firstName": "Apple",
+      "lastInitial": "R",
       "phone": null,
       "signInMethod": "email",
       "joinedAt": "2026-09-15T07:15:32.405Z",

@@ -1,8 +1,8 @@
 {
   "asOf": "2026-09-22",
   "signInMethods": {
-    "google": 52,
-    "email": 10,
+    "google": 53,
+    "email": 9,
     "apple": 23,
     "phone": 6,
     "unknown": 0
@@ -13,7 +13,7 @@
   },
   "softIndicators": {
     "totalUsers": 91,
-    "zipCode": 83,
+    "zipCode": 84,
     "profilePicture": 91
   },
   "userHabits": {

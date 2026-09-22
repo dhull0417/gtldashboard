@@ -142,5 +142,11 @@
     "users": 3,
     "groups": 1,
     "meetups": 104
+  },
+  {
+    "date": "2026-09-22",
+    "users": 1,
+    "groups": 0,
+    "meetups": 0
   }
 ]

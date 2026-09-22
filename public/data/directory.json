@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -1565,6 +1565,16 @@
           "name": "Monday Night GGs"
         }
       ]
+    },
+    {
+      "id": "6ab1e58c703b5bf11a4be06c",
+      "firstName": "Jonathan",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-22T02:18:52.532Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -2535,7 +2545,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-09-21T22:44:11.186Z"
+      "lastMessageAt": "2026-09-22T02:05:21.638Z"
     },
     {
       "id": "6aa87510d914a441bbfd5b88",

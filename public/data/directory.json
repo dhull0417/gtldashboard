@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-22",
+  "asOf": "2026-09-23",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -1573,6 +1573,26 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-09-22T02:18:52.532Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6ab310c7f8cf2abf74fa60f0",
+      "firstName": "",
+      "lastInitial": null,
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-09-22T23:35:35.767Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6ab34c3ff602a24f4d2ea0b3",
+      "firstName": "Eric",
+      "lastInitial": "G",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-23T03:49:19.876Z",
       "groupsCreated": [],
       "groupsMember": []
     }

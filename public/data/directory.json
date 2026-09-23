@@ -1595,6 +1595,16 @@
       "joinedAt": "2026-09-23T03:49:19.876Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6ab3f36d356705a10ea3ea0e",
+      "firstName": "New Member",
+      "lastInitial": null,
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-09-23T15:42:37.111Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [

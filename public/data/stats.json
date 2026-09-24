@@ -154,5 +154,11 @@
     "users": 15,
     "groups": 3,
     "meetups": 105
+  },
+  {
+    "date": "2026-09-24",
+    "users": 2,
+    "groups": 1,
+    "meetups": 78
   }
 ]

@@ -464,7 +464,12 @@
       "signInMethod": "email",
       "joinedAt": "2026-09-01T23:27:19.397Z",
       "groupsCreated": [],
-      "groupsMember": []
+      "groupsMember": [
+        {
+          "id": "6ab457db0e4040749048789e",
+          "name": "Weekly walk with Ryan"
+        }
+      ]
     },
     {
       "id": "6a9767ee022cab8cbc23efcb",
@@ -1841,6 +1846,26 @@
           "name": "Adventure Time"
         }
       ]
+    },
+    {
+      "id": "6ab53bf541a1e598d87fb544",
+      "firstName": "Rachel",
+      "lastInitial": "R",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-24T15:04:21.404Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6ab55035dd8244a3fa7e60be",
+      "firstName": "Marci",
+      "lastInitial": "B",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-24T16:30:45.745Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -3034,6 +3059,10 @@
         {
           "id": "6ab45747551ae6f84a1f61e5",
           "name": "Sara P."
+        },
+        {
+          "id": "6a975f5788de372c3b5c1ce2",
+          "name": "Ryan P."
         }
       ],
       "schedule": {

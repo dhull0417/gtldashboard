@@ -4,21 +4,21 @@
     "google": 65,
     "email": 12,
     "apple": 25,
-    "phone": 7,
+    "phone": 8,
     "unknown": 0
   },
   "permissions": {
-    "totalUsers": 109,
-    "notifications": 85
+    "totalUsers": 110,
+    "notifications": 86
   },
   "softIndicators": {
-    "totalUsers": 109,
-    "zipCode": 99,
-    "profilePicture": 109
+    "totalUsers": 110,
+    "zipCode": 100,
+    "profilePicture": 110
   },
   "userHabits": {
     "groupCount": 35,
-    "avgGroupSize": 3.49,
+    "avgGroupSize": 3.54,
     "avgGroupsPerUser": 0.32,
     "creatorCount": 24,
     "avgGroupsPerCreator": 1.46,

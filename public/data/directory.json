@@ -250,7 +250,7 @@
         },
         {
           "id": "6aaef07677edb4d3cc6e4484",
-          "name": "Buckeye Tailgating"
+          "name": "Buckeye Nation"
         }
       ]
     },
@@ -527,7 +527,7 @@
         },
         {
           "id": "6aaef07677edb4d3cc6e4484",
-          "name": "Buckeye Tailgating"
+          "name": "Buckeye Nation"
         }
       ]
     },
@@ -1082,7 +1082,7 @@
         },
         {
           "id": "6aaef07677edb4d3cc6e4484",
-          "name": "Buckeye Tailgating"
+          "name": "Buckeye Nation"
         },
         {
           "id": "6a95fbafdc39695c69575815",
@@ -1489,13 +1489,13 @@
       "groupsCreated": [
         {
           "id": "6aaef07677edb4d3cc6e4484",
-          "name": "Buckeye Tailgating"
+          "name": "Buckeye Nation"
         }
       ],
       "groupsMember": [
         {
           "id": "6aaef07677edb4d3cc6e4484",
-          "name": "Buckeye Tailgating"
+          "name": "Buckeye Nation"
         }
       ]
     },
@@ -1520,7 +1520,7 @@
       "groupsMember": [
         {
           "id": "6aaef07677edb4d3cc6e4484",
-          "name": "Buckeye Tailgating"
+          "name": "Buckeye Nation"
         }
       ]
     },
@@ -1535,7 +1535,7 @@
       "groupsMember": [
         {
           "id": "6aaef07677edb4d3cc6e4484",
-          "name": "Buckeye Tailgating"
+          "name": "Buckeye Nation"
         }
       ]
     },
@@ -1635,7 +1635,7 @@
       "groupsMember": [
         {
           "id": "6aaef07677edb4d3cc6e4484",
-          "name": "Buckeye Tailgating"
+          "name": "Buckeye Nation"
         }
       ]
     },
@@ -1888,7 +1888,7 @@
       "groupsMember": [
         {
           "id": "6aaef07677edb4d3cc6e4484",
-          "name": "Buckeye Tailgating"
+          "name": "Buckeye Nation"
         }
       ]
     },
@@ -1909,6 +1909,10 @@
         {
           "id": "6ab81c7724ebe21f8175822e",
           "name": "Claudia’s Pickleballers"
+        },
+        {
+          "id": "6a95f44d2b3240168c6443de",
+          "name": "You're My 🏠 🍕"
         }
       ]
     }
@@ -2143,6 +2147,10 @@
         {
           "id": "6a977afccb8b38cc6c64ce69",
           "name": "Chris C."
+        },
+        {
+          "id": "6ab8188316c1896b30b5863c",
+          "name": "Bill B."
         }
       ],
       "schedule": {
@@ -3011,7 +3019,7 @@
     },
     {
       "id": "6aaef07677edb4d3cc6e4484",
-      "name": "Buckeye Tailgating",
+      "name": "Buckeye Nation",
       "createdAt": "2026-09-19T20:28:39.003Z",
       "owner": {
         "id": "6aaeee33f369d4e8ed5f2815",

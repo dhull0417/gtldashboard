@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-26",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -1864,6 +1864,16 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-09-24T16:30:45.745Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6ab71a4dd4cd672e92fb16ce",
+      "firstName": "Colleen",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-09-26T01:05:17.212Z",
       "groupsCreated": [],
       "groupsMember": []
     }

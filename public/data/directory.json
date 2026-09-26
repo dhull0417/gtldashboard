@@ -1891,6 +1891,26 @@
           "name": "Buckeye Tailgating"
         }
       ]
+    },
+    {
+      "id": "6ab8188316c1896b30b5863c",
+      "firstName": "Bill",
+      "lastInitial": "B",
+      "phone": "+14353135799",
+      "signInMethod": "phone",
+      "joinedAt": "2026-09-26T19:09:55.880Z",
+      "groupsCreated": [
+        {
+          "id": "6ab81c7724ebe21f8175822e",
+          "name": "Claudia’s Pickleballers"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6ab81c7724ebe21f8175822e",
+          "name": "Claudia’s Pickleballers"
+        }
+      ]
     }
   ],
   "groups": [
@@ -2149,7 +2169,12 @@
         "id": "6a95e12300c51fd66ba67abc",
         "name": "William C."
       },
-      "moderators": [],
+      "moderators": [
+        {
+          "id": "6a95fba92856eb5dfc256587",
+          "name": "Jen C."
+        }
+      ],
       "members": [
         {
           "id": "6a95e12300c51fd66ba67abc",
@@ -3142,6 +3167,27 @@
         {
           "id": "6ab49dd1ecb9c931d3fef624",
           "name": "Amber C."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6ab81c7724ebe21f8175822e",
+      "name": "Claudia’s Pickleballers",
+      "createdAt": "2026-09-26T19:26:47.335Z",
+      "owner": {
+        "id": "6ab8188316c1896b30b5863c",
+        "name": "Bill B."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6ab8188316c1896b30b5863c",
+          "name": "Bill B."
         }
       ],
       "schedule": {

@@ -481,7 +481,7 @@
       "groupsCreated": [
         {
           "id": "6ab47030199637bfc5a04fdf",
-          "name": "Adventure Time"
+          "name": "Adventure Mamas"
         }
       ],
       "groupsMember": [
@@ -495,7 +495,7 @@
         },
         {
           "id": "6ab47030199637bfc5a04fdf",
-          "name": "Adventure Time"
+          "name": "Adventure Mamas"
         }
       ]
     },
@@ -1843,7 +1843,7 @@
       "groupsMember": [
         {
           "id": "6ab47030199637bfc5a04fdf",
-          "name": "Adventure Time"
+          "name": "Adventure Mamas"
         }
       ]
     },
@@ -3160,7 +3160,7 @@
     },
     {
       "id": "6ab47030199637bfc5a04fdf",
-      "name": "Adventure Time",
+      "name": "Adventure Mamas",
       "createdAt": "2026-09-24T00:34:56.942Z",
       "owner": {
         "id": "6a9767ee022cab8cbc23efcb",

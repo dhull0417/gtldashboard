@@ -478,12 +478,7 @@
       "signInMethod": "email",
       "joinedAt": "2026-09-01T23:27:19.397Z",
       "groupsCreated": [],
-      "groupsMember": [
-        {
-          "id": "6ab457db0e4040749048789e",
-          "name": "Weekly walk with Ryan"
-        }
-      ]
+      "groupsMember": []
     },
     {
       "id": "6a9767ee022cab8cbc23efcb",
@@ -1776,19 +1771,11 @@
       "joinedAt": "2026-09-23T22:48:39.799Z",
       "groupsCreated": [
         {
-          "id": "6ab457db0e4040749048789e",
-          "name": "Weekly walk with Ryan"
-        },
-        {
           "id": "6ab4599a0dea9924b0f3c653",
           "name": "Kolette and Sara Rule the 🌍"
         }
       ],
       "groupsMember": [
-        {
-          "id": "6ab457db0e4040749048789e",
-          "name": "Weekly walk with Ryan"
-        },
         {
           "id": "6ab4599a0dea9924b0f3c653",
           "name": "Kolette and Sara Rule the 🌍"
@@ -3149,31 +3136,6 @@
         "routines": []
       },
       "lastMessageAt": "2026-09-23T17:37:36.516Z"
-    },
-    {
-      "id": "6ab457db0e4040749048789e",
-      "name": "Weekly walk with Ryan",
-      "createdAt": "2026-09-23T22:51:07.291Z",
-      "owner": {
-        "id": "6ab45747551ae6f84a1f61e5",
-        "name": "Sara P."
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6ab45747551ae6f84a1f61e5",
-          "name": "Sara P."
-        },
-        {
-          "id": "6a975f5788de372c3b5c1ce2",
-          "name": "Ryan P."
-        }
-      ],
-      "schedule": {
-        "startDate": null,
-        "routines": []
-      },
-      "lastMessageAt": null
     },
     {
       "id": "6ab4599a0dea9924b0f3c653",

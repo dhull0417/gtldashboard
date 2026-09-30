@@ -1940,6 +1940,16 @@
       "joinedAt": "2026-09-29T00:20:27.925Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6abd46cbb4ecdd8ae1eae46e",
+      "firstName": "Tawni",
+      "lastInitial": "C",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-09-30T17:28:43.539Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [

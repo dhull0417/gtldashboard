@@ -14,10 +14,6 @@
           "name": "Santa Clara 18th Ward Temple Men"
         },
         {
-          "id": "6a92fd5b2c5ee9d5d20d7b7c",
-          "name": "GroupThat Leadership Meeting"
-        },
-        {
           "id": "6aa1ccbdc64503931302fb5c",
           "name": "OG PMK Squad Monthly Reunion"
         },
@@ -1431,6 +1427,10 @@
       "joinedAt": "2026-09-17T04:20:42.365Z",
       "groupsCreated": [
         {
+          "id": "6a92fd5b2c5ee9d5d20d7b7c",
+          "name": "GroupThat Leadership Meeting"
+        },
+        {
           "id": "6aaee12dd060e59211ac28a3",
           "name": "Testing"
         },
@@ -2003,8 +2003,8 @@
       "name": "GroupThat Leadership Meeting",
       "createdAt": "2026-08-29T15:40:11.708Z",
       "owner": {
-        "id": "6a92e8882651776280ed14c7",
-        "name": "Devin P."
+        "id": "6aab6a9ab0c680db7b092f08",
+        "name": "Dallin H."
       },
       "moderators": [
         {
@@ -2012,8 +2012,8 @@
           "name": "William C."
         },
         {
-          "id": "6aab6a9ab0c680db7b092f08",
-          "name": "Dallin H."
+          "id": "6a92e8882651776280ed14c7",
+          "name": "Devin P."
         }
       ],
       "members": [
@@ -2044,7 +2044,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-10-01T00:17:20.271Z"
+      "lastMessageAt": "2026-10-02T20:53:41.173Z"
     },
     {
       "id": "6a930a5594072a881a89bb7f",

@@ -140,7 +140,7 @@
   {
     "date": "2026-09-21",
     "users": 3,
-    "groups": 1,
+    "groups": 0,
     "meetups": 104
   },
   {
@@ -206,7 +206,7 @@
   {
     "date": "2026-10-02",
     "users": 1,
-    "groups": 0,
-    "meetups": 0
+    "groups": 1,
+    "meetups": 104
   }
 ]

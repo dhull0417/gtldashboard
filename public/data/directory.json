@@ -1964,6 +1964,21 @@
       "joinedAt": "2026-10-02T04:25:54.722Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6ac701b98ee915490ba13e6f",
+      "firstName": "Emilie",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-10-08T02:36:41.785Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6aaef07677edb4d3cc6e4484",
+          "name": "Buckeye Nation"
+        }
+      ]
     }
   ],
   "groups": [
@@ -3111,6 +3126,10 @@
         {
           "id": "6ab7fbf6cca2a2a43d8eca70",
           "name": "Konstantin A."
+        },
+        {
+          "id": "6ac701b98ee915490ba13e6f",
+          "name": "Emilie S."
         }
       ],
       "schedule": {

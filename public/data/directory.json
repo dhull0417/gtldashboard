@@ -2000,6 +2000,21 @@
           "name": "Buckeye Nation"
         }
       ]
+    },
+    {
+      "id": "6ac942533885eeaee7d1019d",
+      "firstName": "Jarom",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-09T19:36:51.714Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ac9336817be7a289c4f7b08",
+          "name": "BYU vs Iowa State"
+        }
+      ]
     }
   ],
   "groups": [
@@ -3326,6 +3341,10 @@
         {
           "id": "6ab47fdf1cd427b8ac55e837",
           "name": "David C."
+        },
+        {
+          "id": "6ac942533885eeaee7d1019d",
+          "name": "Jarom S."
         }
       ],
       "schedule": {

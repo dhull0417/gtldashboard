@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -2015,6 +2015,21 @@
           "name": "BYU vs Iowa State"
         }
       ]
+    },
+    {
+      "id": "6ac97a1f1bedf4a74d884595",
+      "firstName": "Justin",
+      "lastInitial": "K",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-10-09T23:34:55.440Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ac9336817be7a289c4f7b08",
+          "name": "BYU vs Iowa State"
+        }
+      ]
     }
   ],
   "groups": [
@@ -3345,6 +3360,10 @@
         {
           "id": "6ac942533885eeaee7d1019d",
           "name": "Jarom S."
+        },
+        {
+          "id": "6ac97a1f1bedf4a74d884595",
+          "name": "Justin K."
         }
       ],
       "schedule": {

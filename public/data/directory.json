@@ -2030,6 +2030,21 @@
           "name": "BYU vs Iowa State"
         }
       ]
+    },
+    {
+      "id": "6ac99cd8b9b446386467c067",
+      "firstName": "Luke",
+      "lastInitial": "U",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-10-10T02:03:04.724Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ac9336817be7a289c4f7b08",
+          "name": "BYU vs Iowa State"
+        }
+      ]
     }
   ],
   "groups": [
@@ -3364,13 +3379,17 @@
         {
           "id": "6ac97a1f1bedf4a74d884595",
           "name": "Justin K."
+        },
+        {
+          "id": "6ac99cd8b9b446386467c067",
+          "name": "Luke U."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": null
+      "lastMessageAt": "2026-10-10T03:47:52.925Z"
     }
   ]
 }

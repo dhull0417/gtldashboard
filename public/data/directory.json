@@ -223,10 +223,6 @@
       "joinedAt": "2026-08-31T20:16:35.214Z",
       "groupsCreated": [
         {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
-        },
-        {
           "id": "6acc22d731956901223ddbe7",
           "name": "DinDin & Doctrine"
         }
@@ -235,10 +231,6 @@
         {
           "id": "6a92fd5b2c5ee9d5d20d7b7c",
           "name": "GroupThat Leadership Meeting"
-        },
-        {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
         },
         {
           "id": "6a977e384015799fdf61e8b8",
@@ -270,12 +262,7 @@
       "signInMethod": "email",
       "joinedAt": "2026-08-31T22:09:45.846Z",
       "groupsCreated": [],
-      "groupsMember": [
-        {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
-        }
-      ]
+      "groupsMember": []
     },
     {
       "id": "6a95fc75dc39695c69575870",
@@ -315,12 +302,7 @@
       "signInMethod": "apple",
       "joinedAt": "2026-08-31T22:44:10.254Z",
       "groupsCreated": [],
-      "groupsMember": [
-        {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
-        }
-      ]
+      "groupsMember": []
     },
     {
       "id": "6a960636896def9c9ea6072c",
@@ -378,12 +360,7 @@
       "signInMethod": "google",
       "joinedAt": "2026-08-31T23:34:19.165Z",
       "groupsCreated": [],
-      "groupsMember": [
-        {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
-        }
-      ]
+      "groupsMember": []
     },
     {
       "id": "6a963a489c0238aa08af6403",
@@ -393,12 +370,7 @@
       "signInMethod": "google",
       "joinedAt": "2026-09-01T02:36:56.959Z",
       "groupsCreated": [],
-      "groupsMember": [
-        {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
-        }
-      ]
+      "groupsMember": []
     },
     {
       "id": "6a9658730328f887d201641d",
@@ -446,12 +418,7 @@
       "signInMethod": "apple",
       "joinedAt": "2026-09-01T11:08:19.067Z",
       "groupsCreated": [],
-      "groupsMember": [
-        {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
-        }
-      ]
+      "groupsMember": []
     },
     {
       "id": "6a9741f54d3e6c88df089c8d",
@@ -521,16 +488,16 @@
       ],
       "groupsMember": [
         {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
-        },
-        {
           "id": "6a977e384015799fdf61e8b8",
           "name": "Caves & Creatures"
         },
         {
           "id": "6aaef07677edb4d3cc6e4484",
           "name": "Buckeye Nation"
+        },
+        {
+          "id": "6acc22d731956901223ddbe7",
+          "name": "DinDin & Doctrine"
         }
       ]
     },
@@ -1684,6 +1651,10 @@
         {
           "id": "6aa87510d914a441bbfd5b88",
           "name": "Santa Clara Youth Council (SCYC) Meeting"
+        },
+        {
+          "id": "6acc22d731956901223ddbe7",
+          "name": "DinDin & Doctrine"
         }
       ]
     },
@@ -1903,10 +1874,6 @@
         {
           "id": "6ab81c7724ebe21f8175822e",
           "name": "Claudia’s Pickleballers"
-        },
-        {
-          "id": "6a95f44d2b3240168c6443de",
-          "name": "You're My 🏠 🍕"
         }
       ]
     },
@@ -2089,7 +2056,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-10-12T00:13:33.489Z"
+      "lastMessageAt": "2026-10-12T00:16:08.114Z"
     },
     {
       "id": "6a930a5594072a881a89bb7f",
@@ -2203,65 +2170,6 @@
         ]
       },
       "lastMessageAt": "2026-08-29T21:52:46.659Z"
-    },
-    {
-      "id": "6a95f44d2b3240168c6443de",
-      "name": "You're My 🏠 🍕",
-      "createdAt": "2026-08-31T21:38:21.838Z",
-      "owner": {
-        "id": "6a95e12300c51fd66ba67abc",
-        "name": "William C."
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6a95e12300c51fd66ba67abc",
-          "name": "William C."
-        },
-        {
-          "id": "6a95fba92856eb5dfc256587",
-          "name": "Jen C."
-        },
-        {
-          "id": "6a9603ba6002d217da771dda",
-          "name": "No Profile P."
-        },
-        {
-          "id": "6a960f7b4626345194ef9446",
-          "name": "Bill C."
-        },
-        {
-          "id": "6a963a489c0238aa08af6403",
-          "name": "Mark F."
-        },
-        {
-          "id": "6a96b223a340f7147074b769",
-          "name": "No Profile P."
-        },
-        {
-          "id": "6a977afccb8b38cc6c64ce69",
-          "name": "Chris C."
-        },
-        {
-          "id": "6ab8188316c1896b30b5863c",
-          "name": "Bill B."
-        }
-      ],
-      "schedule": {
-        "startDate": "2026-08-31T00:00:00.000Z",
-        "routines": [
-          {
-            "frequency": "weekly",
-            "dayTimes": [
-              {
-                "day": 1,
-                "time": "12:00 PM"
-              }
-            ]
-          }
-        ]
-      },
-      "lastMessageAt": "2026-09-01T03:55:39.550Z"
     },
     {
       "id": "6a972bcd02ade465e42a97a6",
@@ -3300,6 +3208,14 @@
         {
           "id": "6a95e12300c51fd66ba67abc",
           "name": "William C."
+        },
+        {
+          "id": "6a977afccb8b38cc6c64ce69",
+          "name": "Chris C."
+        },
+        {
+          "id": "6ab44fef660e9b29fe95bc74",
+          "name": "Levi C."
         }
       ],
       "schedule": {

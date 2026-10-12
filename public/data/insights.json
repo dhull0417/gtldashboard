@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-11",
+  "asOf": "2026-10-12",
   "signInMethods": {
     "google": 73,
     "email": 16,
@@ -18,13 +18,13 @@
   },
   "userHabits": {
     "groupCount": 37,
-    "avgGroupSize": 3.73,
+    "avgGroupSize": 3.51,
     "avgGroupsPerUser": 0.3,
     "creatorCount": 26,
     "avgGroupsPerCreator": 1.42,
     "frequency": {
       "daily": 0,
-      "weekly": 6,
+      "weekly": 5,
       "biweekly": 2,
       "monthly": 5
     }

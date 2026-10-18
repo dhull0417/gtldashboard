@@ -2004,6 +2004,21 @@
       "joinedAt": "2026-10-14T15:27:23.875Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6ad532255d4b4c7a69a1696d",
+      "firstName": "Alissa",
+      "lastInitial": "C",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-18T20:55:01.445Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6a934f556dc7aa9cd637ce15",
+          "name": "Sunday Food & Fun"
+        }
+      ]
     }
   ],
   "groups": [
@@ -2150,6 +2165,10 @@
         {
           "id": "6aab6a9ab0c680db7b092f08",
           "name": "Dallin H."
+        },
+        {
+          "id": "6ad532255d4b4c7a69a1696d",
+          "name": "Alissa C."
         }
       ],
       "schedule": {

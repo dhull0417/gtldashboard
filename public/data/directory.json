@@ -544,7 +544,12 @@
       "signInMethod": "google",
       "joinedAt": "2026-09-02T02:31:49.942Z",
       "groupsCreated": [],
-      "groupsMember": []
+      "groupsMember": [
+        {
+          "id": "6acc22d731956901223ddbe7",
+          "name": "DinDin & Doctrine"
+        }
+      ]
     },
     {
       "id": "6a978bf9001662d3196ea701",
@@ -2161,7 +2166,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-10-18T03:57:13.550Z"
+      "lastMessageAt": "2026-10-18T19:35:14.120Z"
     },
     {
       "id": "6a93543a49d279b9b57afb38",
@@ -3251,13 +3256,17 @@
         {
           "id": "6aa5f3f1e67b51a5d8f5362a",
           "name": "Jennifer C."
+        },
+        {
+          "id": "6a978a95001662d3196ea6fc",
+          "name": "Daniel P."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-10-18T15:24:25.851Z"
+      "lastMessageAt": "2026-10-18T18:29:20.320Z"
     }
   ]
 }

@@ -251,6 +251,10 @@
         {
           "id": "6acc22d731956901223ddbe7",
           "name": "DinDin & Doctrine"
+        },
+        {
+          "id": "6ad6cc201842a3f5b2390299",
+          "name": "Ball Busters"
         }
       ]
     },
@@ -374,8 +378,26 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-09-01T02:36:56.959Z",
-      "groupsCreated": [],
-      "groupsMember": []
+      "groupsCreated": [
+        {
+          "id": "6ad6cc201842a3f5b2390299",
+          "name": "Ball Busters"
+        },
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6ad6cc201842a3f5b2390299",
+          "name": "Ball Busters"
+        },
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
+        }
+      ]
     },
     {
       "id": "6a9658730328f887d201641d",
@@ -533,6 +555,10 @@
         {
           "id": "6aa87510d914a441bbfd5b88",
           "name": "Santa Clara Youth Council (SCYC) Meeting"
+        },
+        {
+          "id": "6ad6cc201842a3f5b2390299",
+          "name": "Ball Busters"
         }
       ]
     },
@@ -2019,6 +2045,85 @@
           "name": "Sunday Food & Fun"
         }
       ]
+    },
+    {
+      "id": "6ad6dee0c4ff4427463cc997",
+      "firstName": "Mike",
+      "lastInitial": "M",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-20T03:24:16.697Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
+        }
+      ]
+    },
+    {
+      "id": "6ad6e172c4ff4427463cc9be",
+      "firstName": "Brooklyn",
+      "lastInitial": "T",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-10-20T03:35:14.299Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
+        }
+      ]
+    },
+    {
+      "id": "6ad6e197c4ff4427463cc9c4",
+      "firstName": "Jefe",
+      "lastInitial": "H",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-20T03:35:51.741Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
+        }
+      ]
+    },
+    {
+      "id": "6ad6e1f156b522df87f50d6f",
+      "firstName": "Samantha",
+      "lastInitial": "L",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-10-20T03:37:21.933Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
+        }
+      ]
+    },
+    {
+      "id": "6ad6e20c41e01fcfe21fbea5",
+      "firstName": "Curtis",
+      "lastInitial": "B",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-10-20T03:37:48.787Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
+        },
+        {
+          "id": "6ad6cc201842a3f5b2390299",
+          "name": "Ball Busters"
+        }
+      ]
     }
   ],
   "groups": [
@@ -3286,6 +3391,85 @@
         "routines": []
       },
       "lastMessageAt": "2026-10-18T18:29:20.320Z"
+    },
+    {
+      "id": "6ad6cc201842a3f5b2390299",
+      "name": "Ball Busters",
+      "createdAt": "2026-10-20T02:04:16.536Z",
+      "owner": {
+        "id": "6a963a489c0238aa08af6403",
+        "name": "Mark F."
+      },
+      "moderators": [
+        {
+          "id": "6a95e12300c51fd66ba67abc",
+          "name": "William C."
+        }
+      ],
+      "members": [
+        {
+          "id": "6a95e12300c51fd66ba67abc",
+          "name": "William C."
+        },
+        {
+          "id": "6a963a489c0238aa08af6403",
+          "name": "Mark F."
+        },
+        {
+          "id": "6a97873a80e844d401f9a3d3",
+          "name": "Elias C."
+        },
+        {
+          "id": "6ad6e20c41e01fcfe21fbea5",
+          "name": "Curtis B."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": "2026-10-20T04:02:56.547Z"
+    },
+    {
+      "id": "6ad6dd2d6db1c2d222e08867",
+      "name": "Coed Ball Busters",
+      "createdAt": "2026-10-20T03:17:01.638Z",
+      "owner": {
+        "id": "6a963a489c0238aa08af6403",
+        "name": "Mark F."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a963a489c0238aa08af6403",
+          "name": "Mark F."
+        },
+        {
+          "id": "6ad6dee0c4ff4427463cc997",
+          "name": "Mike M."
+        },
+        {
+          "id": "6ad6e172c4ff4427463cc9be",
+          "name": "Brooklyn T."
+        },
+        {
+          "id": "6ad6e197c4ff4427463cc9c4",
+          "name": "Jefe H."
+        },
+        {
+          "id": "6ad6e1f156b522df87f50d6f",
+          "name": "Samantha L."
+        },
+        {
+          "id": "6ad6e20c41e01fcfe21fbea5",
+          "name": "Curtis B."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": "2026-10-20T03:38:33.137Z"
     }
   ]
 }

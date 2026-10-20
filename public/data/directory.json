@@ -1867,16 +1867,6 @@
       "groupsMember": []
     },
     {
-      "id": "6ab55035dd8244a3fa7e60be",
-      "firstName": "Marci",
-      "lastInitial": "B",
-      "phone": null,
-      "signInMethod": "google",
-      "joinedAt": "2026-09-24T16:30:45.745Z",
-      "groupsCreated": [],
-      "groupsMember": []
-    },
-    {
       "id": "6ab71a4dd4cd672e92fb16ce",
       "firstName": "Colleen",
       "lastInitial": "S",
@@ -2122,6 +2112,66 @@
         {
           "id": "6ad6cc201842a3f5b2390299",
           "name": "Ball Busters"
+        }
+      ]
+    },
+    {
+      "id": "6ad6fd9734094974c95b24ae",
+      "firstName": "Ben",
+      "lastInitial": "C",
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-10-20T05:35:19.848Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6cc201842a3f5b2390299",
+          "name": "Ball Busters"
+        }
+      ]
+    },
+    {
+      "id": "6ad736019f73f27c15a492a5",
+      "firstName": "chelsey",
+      "lastInitial": "H",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-20T09:36:01.467Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
+        }
+      ]
+    },
+    {
+      "id": "6ad7585a9f111f60e6227ed1",
+      "firstName": "Lauren",
+      "lastInitial": "L",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-20T12:02:34.119Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
+        }
+      ]
+    },
+    {
+      "id": "6ad76945a9102b76cc14a0a0",
+      "firstName": "New Member",
+      "lastInitial": null,
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-10-20T13:14:45.969Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6dd2d6db1c2d222e08867",
+          "name": "Coed Ball Busters"
         }
       ]
     }
@@ -3422,6 +3472,10 @@
         {
           "id": "6ad6e20c41e01fcfe21fbea5",
           "name": "Curtis B."
+        },
+        {
+          "id": "6ad6fd9734094974c95b24ae",
+          "name": "Ben C."
         }
       ],
       "schedule": {
@@ -3463,13 +3517,25 @@
         {
           "id": "6ad6e20c41e01fcfe21fbea5",
           "name": "Curtis B."
+        },
+        {
+          "id": "6ad736019f73f27c15a492a5",
+          "name": "chelsey H."
+        },
+        {
+          "id": "6ad7585a9f111f60e6227ed1",
+          "name": "Lauren L."
+        },
+        {
+          "id": "6ad76945a9102b76cc14a0a0",
+          "name": "New Member"
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-10-20T03:38:33.137Z"
+      "lastMessageAt": "2026-10-20T14:33:19.178Z"
     }
   ]
 }

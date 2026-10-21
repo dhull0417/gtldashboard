@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -2189,6 +2189,16 @@
           "name": "Coed Ball Busters"
         }
       ]
+    },
+    {
+      "id": "6ad7fd4212105a363f092a10",
+      "firstName": "dustin",
+      "lastInitial": "A",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-20T23:46:10.836Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [

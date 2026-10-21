@@ -1,20 +1,20 @@
 {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "signInMethods": {
-    "google": 78,
+    "google": 79,
     "email": 20,
     "apple": 27,
     "phone": 9,
     "unknown": 0
   },
   "permissions": {
-    "totalUsers": 134,
+    "totalUsers": 135,
     "notifications": 101
   },
   "softIndicators": {
-    "totalUsers": 134,
-    "zipCode": 124,
-    "profilePicture": 134
+    "totalUsers": 135,
+    "zipCode": 125,
+    "profilePicture": 135
   },
   "userHabits": {
     "groupCount": 38,

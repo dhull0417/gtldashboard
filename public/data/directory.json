@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -2199,6 +2199,16 @@
       "joinedAt": "2026-10-20T23:46:10.836Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6ad978605b40b5e62e22a5ee",
+      "firstName": "Matt",
+      "lastInitial": "N",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-22T02:43:44.479Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -2279,7 +2289,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-10-14T22:23:10.541Z"
+      "lastMessageAt": "2026-10-22T00:13:29.094Z"
     },
     {
       "id": "6a930a5594072a881a89bb7f",
@@ -3507,7 +3517,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-10-20T04:02:56.547Z"
+      "lastMessageAt": "2026-10-22T02:51:52.196Z"
     },
     {
       "id": "6ad6dd2d6db1c2d222e08867",

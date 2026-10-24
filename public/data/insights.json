@@ -1,24 +1,24 @@
 {
   "asOf": "2026-10-24",
   "signInMethods": {
-    "google": 80,
+    "google": 82,
     "email": 20,
     "apple": 27,
     "phone": 9,
     "unknown": 0
   },
   "permissions": {
-    "totalUsers": 136,
-    "notifications": 101
+    "totalUsers": 138,
+    "notifications": 102
   },
   "softIndicators": {
-    "totalUsers": 136,
-    "zipCode": 126,
-    "profilePicture": 136
+    "totalUsers": 138,
+    "zipCode": 128,
+    "profilePicture": 138
   },
   "userHabits": {
     "groupCount": 38,
-    "avgGroupSize": 3.79,
+    "avgGroupSize": 3.84,
     "avgGroupsPerUser": 0.28,
     "creatorCount": 27,
     "avgGroupsPerCreator": 1.41,

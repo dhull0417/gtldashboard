@@ -2048,6 +2048,10 @@
         {
           "id": "6ad6dd2d6db1c2d222e08867",
           "name": "Coed Ball Busters"
+        },
+        {
+          "id": "6ad6cc201842a3f5b2390299",
+          "name": "Ball Busters"
         }
       ]
     },
@@ -2207,6 +2211,31 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-10-22T02:43:44.479Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6adcef1ad0d6eb23454aeaec",
+      "firstName": "Ranger",
+      "lastInitial": "P",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-24T17:47:06.696Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6cc201842a3f5b2390299",
+          "name": "Ball Busters"
+        }
+      ]
+    },
+    {
+      "id": "6adcf365bc339871215a908c",
+      "firstName": "jeremy",
+      "lastInitial": "A",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-24T18:05:25.828Z",
       "groupsCreated": [],
       "groupsMember": []
     }
@@ -3511,6 +3540,14 @@
         {
           "id": "6ad6fd9734094974c95b24ae",
           "name": "Ben C."
+        },
+        {
+          "id": "6ad6dee0c4ff4427463cc997",
+          "name": "Mike M."
+        },
+        {
+          "id": "6adcef1ad0d6eb23454aeaec",
+          "name": "Ranger P."
         }
       ],
       "schedule": {

@@ -2238,6 +2238,21 @@
       "joinedAt": "2026-10-24T18:05:25.828Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6addfe26c90d4f6d8299b258",
+      "firstName": "Chris",
+      "lastInitial": "L",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-25T13:03:34.872Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ad6cc201842a3f5b2390299",
+          "name": "Ball Busters"
+        }
+      ]
     }
   ],
   "groups": [
@@ -3548,6 +3563,10 @@
         {
           "id": "6adcef1ad0d6eb23454aeaec",
           "name": "Ranger P."
+        },
+        {
+          "id": "6addfe26c90d4f6d8299b258",
+          "name": "Chris L."
         }
       ],
       "schedule": {

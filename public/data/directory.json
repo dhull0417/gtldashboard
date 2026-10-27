@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -62,6 +62,10 @@
         {
           "id": "6ac9336817be7a289c4f7b08",
           "name": "BYU vs Iowa State"
+        },
+        {
+          "id": "6adfe9b33e47bba75b16f16f",
+          "name": "Walk and Talk"
         }
       ]
     },
@@ -483,6 +487,10 @@
         {
           "id": "6ab47030199637bfc5a04fdf",
           "name": "Adventure Mamas"
+        },
+        {
+          "id": "6adfe9b33e47bba75b16f16f",
+          "name": "Walk and Talk"
         }
       ],
       "groupsMember": [
@@ -497,6 +505,10 @@
         {
           "id": "6ab47030199637bfc5a04fdf",
           "name": "Adventure Mamas"
+        },
+        {
+          "id": "6adfe9b33e47bba75b16f16f",
+          "name": "Walk and Talk"
         }
       ]
     },
@@ -3640,6 +3652,31 @@
         "routines": []
       },
       "lastMessageAt": "2026-10-25T21:45:42.034Z"
+    },
+    {
+      "id": "6adfe9b33e47bba75b16f16f",
+      "name": "Walk and Talk",
+      "createdAt": "2026-10-27T00:00:51.670Z",
+      "owner": {
+        "id": "6a9767ee022cab8cbc23efcb",
+        "name": "Krystal P."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6a9767ee022cab8cbc23efcb",
+          "name": "Krystal P."
+        },
+        {
+          "id": "6a92e8882651776280ed14c7",
+          "name": "Devin P."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
     }
   ]
 }

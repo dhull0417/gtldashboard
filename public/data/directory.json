@@ -2318,6 +2318,21 @@
           "name": "Ruth Payne Christmas Party"
         }
       ]
+    },
+    {
+      "id": "6ae2040f0c480808b2b729c9",
+      "firstName": "Becky",
+      "lastInitial": "P",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-10-28T14:17:51.827Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ae116f2712a67929bbc523b",
+          "name": "Ruth Payne Christmas Party"
+        }
+      ]
     }
   ],
   "groups": [
@@ -3737,6 +3752,10 @@
         {
           "id": "6ae13af868d0cf28e60132af",
           "name": "Gavin P."
+        },
+        {
+          "id": "6ae2040f0c480808b2b729c9",
+          "name": "Becky P."
         }
       ],
       "schedule": {

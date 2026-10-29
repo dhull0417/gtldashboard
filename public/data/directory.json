@@ -2462,6 +2462,21 @@
       "signInMethod": "google",
       "joinedAt": "2026-10-29T16:01:24.565Z",
       "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
+    },
+    {
+      "id": "6ae3c0ba47a4d8a27dba2aef",
+      "firstName": "Jayne",
+      "lastInitial": "F",
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-10-29T21:55:06.084Z",
+      "groupsCreated": [],
       "groupsMember": []
     }
   ],
@@ -3843,6 +3858,10 @@
         {
           "id": "6ae3690e4ee28c186a2c122c",
           "name": "Margaret P."
+        },
+        {
+          "id": "6ae36dd457eeec30d6dcd68c",
+          "name": "Kerri F."
         }
       ],
       "schedule": {

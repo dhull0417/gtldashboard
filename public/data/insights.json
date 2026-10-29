@@ -3,22 +3,22 @@
   "signInMethods": {
     "google": 88,
     "email": 26,
-    "apple": 27,
+    "apple": 28,
     "phone": 10,
     "unknown": 0
   },
   "permissions": {
-    "totalUsers": 151,
-    "notifications": 112
+    "totalUsers": 152,
+    "notifications": 113
   },
   "softIndicators": {
-    "totalUsers": 151,
-    "zipCode": 141,
-    "profilePicture": 151
+    "totalUsers": 152,
+    "zipCode": 142,
+    "profilePicture": 152
   },
   "userHabits": {
     "groupCount": 39,
-    "avgGroupSize": 4.26,
+    "avgGroupSize": 4.28,
     "avgGroupsPerUser": 0.26,
     "creatorCount": 27,
     "avgGroupsPerCreator": 1.44,

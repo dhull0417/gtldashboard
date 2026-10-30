@@ -2495,6 +2495,66 @@
       "signInMethod": "apple",
       "joinedAt": "2026-10-29T21:55:06.084Z",
       "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
+    },
+    {
+      "id": "6ae4ada813d90d8abe2efa77",
+      "firstName": "Wendy",
+      "lastInitial": "T",
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-10-30T14:46:00.941Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
+    },
+    {
+      "id": "6ae4adb8b2bc97d61360f73d",
+      "firstName": "Sandra",
+      "lastInitial": "R",
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-10-30T14:46:16.448Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
+    },
+    {
+      "id": "6ae4add89ab772dccdc624d0",
+      "firstName": "Rebecca",
+      "lastInitial": "V",
+      "phone": "+17756902093",
+      "signInMethod": "phone",
+      "joinedAt": "2026-10-30T14:46:48.433Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
+    },
+    {
+      "id": "6ae4b6d5eb07425604ee0567",
+      "firstName": "Shelley",
+      "lastInitial": "T",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-10-30T15:25:09.929Z",
+      "groupsCreated": [],
       "groupsMember": []
     }
   ],
@@ -3884,13 +3944,29 @@
         {
           "id": "6ae36dd457eeec30d6dcd68c",
           "name": "Kerri F."
+        },
+        {
+          "id": "6ae3c0ba47a4d8a27dba2aef",
+          "name": "Jayne F."
+        },
+        {
+          "id": "6ae4add89ab772dccdc624d0",
+          "name": "Rebecca V."
+        },
+        {
+          "id": "6ae4ada813d90d8abe2efa77",
+          "name": "Wendy T."
+        },
+        {
+          "id": "6ae4adb8b2bc97d61360f73d",
+          "name": "Sandra R."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-10-29T17:46:30.847Z"
+      "lastMessageAt": "2026-10-30T14:55:31.515Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",

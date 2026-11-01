@@ -2561,6 +2561,21 @@
           "name": "A League of Our Own"
         }
       ]
+    },
+    {
+      "id": "6ae79a5674b8ddf5494fa727",
+      "firstName": "Cathi",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-11-01T20:00:22.261Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
     }
   ],
   "groups": [
@@ -3969,13 +3984,17 @@
         {
           "id": "6ae4b6d5eb07425604ee0567",
           "name": "Shelley T."
+        },
+        {
+          "id": "6ae79a5674b8ddf5494fa727",
+          "name": "Cathi S."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-10-30T14:55:31.515Z"
+      "lastMessageAt": "2026-11-01T20:02:17.061Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",

@@ -263,6 +263,10 @@
         {
           "id": "6ad6cc201842a3f5b2390299",
           "name": "Ball Busters"
+        },
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
         }
       ]
     },
@@ -2580,6 +2584,31 @@
           "name": "A League of Our Own"
         }
       ]
+    },
+    {
+      "id": "6ae8bb359456cefdaa1ad694",
+      "firstName": "Jayne",
+      "lastInitial": "F",
+      "phone": "+18017352953",
+      "signInMethod": "phone",
+      "joinedAt": "2026-11-02T16:32:53.337Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
+    },
+    {
+      "id": "6ae8f7a37d205fda37ca546d",
+      "firstName": "Lisa",
+      "lastInitial": "W",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-11-02T20:50:43.193Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -3996,6 +4025,14 @@
         {
           "id": "6a92e8882651776280ed14c7",
           "name": "Devin P."
+        },
+        {
+          "id": "6a95e12300c51fd66ba67abc",
+          "name": "William C."
+        },
+        {
+          "id": "6ae8bb359456cefdaa1ad694",
+          "name": "Jayne F."
         }
       ],
       "schedule": {

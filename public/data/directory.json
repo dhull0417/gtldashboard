@@ -66,6 +66,10 @@
         {
           "id": "6ae116f2712a67929bbc523b",
           "name": "Ruth Payne Christmas Party"
+        },
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
         }
       ]
     },
@@ -3988,13 +3992,17 @@
         {
           "id": "6ae79a5674b8ddf5494fa727",
           "name": "Cathi S."
+        },
+        {
+          "id": "6a92e8882651776280ed14c7",
+          "name": "Devin P."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-01T20:02:17.061Z"
+      "lastMessageAt": "2026-11-02T02:43:36.541Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",

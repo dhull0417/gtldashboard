@@ -2618,7 +2618,27 @@
       "signInMethod": "phone",
       "joinedAt": "2026-11-02T22:48:05.346Z",
       "groupsCreated": [],
-      "groupsMember": []
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
+    },
+    {
+      "id": "6ae9335803c441a03d0c8563",
+      "firstName": "Don",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-03T01:05:28.518Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
     }
   ],
   "groups": [
@@ -4043,13 +4063,21 @@
         {
           "id": "6ae8bb359456cefdaa1ad694",
           "name": "Jayne F."
+        },
+        {
+          "id": "6ae913257d205fda37ca55c0",
+          "name": "Marilyn R."
+        },
+        {
+          "id": "6ae9335803c441a03d0c8563",
+          "name": "Don S."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-02T22:02:45.700Z"
+      "lastMessageAt": "2026-11-03T02:18:25.889Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",

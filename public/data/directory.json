@@ -2654,6 +2654,26 @@
           "name": "A League of Our Own"
         }
       ]
+    },
+    {
+      "id": "6aeb825ebb4f0b61829d93de",
+      "firstName": "Audrey",
+      "lastInitial": "G",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-04T19:07:10.437Z",
+      "groupsCreated": [],
+      "groupsMember": []
+    },
+    {
+      "id": "6aeb83885a7d678a1c35b22e",
+      "firstName": "Kimberly",
+      "lastInitial": "M",
+      "phone": "+13854928507",
+      "signInMethod": "phone",
+      "joinedAt": "2026-11-04T19:12:08.170Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -4096,7 +4116,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-03T19:08:35.333Z"
+      "lastMessageAt": "2026-11-04T13:11:08.391Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",

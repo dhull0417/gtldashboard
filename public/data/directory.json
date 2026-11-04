@@ -2674,6 +2674,16 @@
       "joinedAt": "2026-11-04T19:12:08.170Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6aeb963885d14fecbb02edc5",
+      "firstName": "connie",
+      "lastInitial": "C",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-04T20:31:52.723Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [

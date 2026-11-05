@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -2707,6 +2707,21 @@
           "name": "Stake Sunday School Pres Mtg"
         }
       ]
+    },
+    {
+      "id": "6aebd4e79e8800d9d2628044",
+      "firstName": "Bart",
+      "lastInitial": "F",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-11-05T00:59:19.175Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6aeb9c327a7647e8bfea907b",
+          "name": "Stake Sunday School Pres Mtg"
+        }
+      ]
     }
   ],
   "groups": [
@@ -4272,6 +4287,10 @@
         {
           "id": "6aeb9dd95a7d678a1c35b37e",
           "name": "Spencer B."
+        },
+        {
+          "id": "6aebd4e79e8800d9d2628044",
+          "name": "Bart F."
         }
       ],
       "schedule": {

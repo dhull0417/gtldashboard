@@ -2722,6 +2722,16 @@
           "name": "Stake Sunday School Pres Mtg"
         }
       ]
+    },
+    {
+      "id": "6aebffc8cf8a92da195ad465",
+      "firstName": "shannon",
+      "lastInitial": "B",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-05T04:02:16.546Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [

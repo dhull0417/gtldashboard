@@ -2747,6 +2747,16 @@
       "joinedAt": "2026-11-06T17:19:29.922Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6aee327df87d5f0f42e82fc7",
+      "firstName": "Dallin",
+      "lastInitial": "H",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-11-06T20:03:09.219Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [

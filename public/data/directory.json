@@ -2724,12 +2724,27 @@
       ]
     },
     {
-      "id": "6aebffc8cf8a92da195ad465",
-      "firstName": "shannon",
-      "lastInitial": "B",
+      "id": "6aedfd95d0b2153fd6f46c1f",
+      "firstName": "Tricia",
+      "lastInitial": "U",
       "phone": null,
       "signInMethod": "google",
-      "joinedAt": "2026-11-05T04:02:16.546Z",
+      "joinedAt": "2026-11-06T16:17:25.235Z",
+      "groupsCreated": [],
+      "groupsMember": [
+        {
+          "id": "6ade764e481ef00234768327",
+          "name": "A League of Our Own"
+        }
+      ]
+    },
+    {
+      "id": "6aee0c213dfd7b7bb37d537a",
+      "firstName": "Shannon",
+      "lastInitial": "B",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-11-06T17:19:29.922Z",
       "groupsCreated": [],
       "groupsMember": []
     }
@@ -4168,13 +4183,17 @@
         {
           "id": "6aea03a15c66b65b20085ba9",
           "name": "Jan H."
+        },
+        {
+          "id": "6aedfd95d0b2153fd6f46c1f",
+          "name": "Tricia U."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-04T13:11:08.391Z"
+      "lastMessageAt": "2026-11-06T17:46:28.725Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",

@@ -2762,6 +2762,16 @@
       "joinedAt": "2026-11-06T20:54:06.340Z",
       "groupsCreated": [],
       "groupsMember": []
+    },
+    {
+      "id": "6af078f55a6d549d700f49f7",
+      "firstName": "Sandi",
+      "lastInitial": "A",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-08T13:28:21.671Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -4099,7 +4109,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-06T00:30:58.394Z"
+      "lastMessageAt": "2026-11-08T16:18:59.595Z"
     },
     {
       "id": "6ade764e481ef00234768327",
@@ -4345,7 +4355,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": null
+      "lastMessageAt": "2026-11-08T16:16:18.594Z"
     }
   ]
 }

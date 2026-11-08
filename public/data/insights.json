@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "signInMethods": {
     "google": 94,
     "email": 32,
@@ -9,7 +9,7 @@
   },
   "permissions": {
     "totalUsers": 170,
-    "notifications": 124
+    "notifications": 125
   },
   "softIndicators": {
     "totalUsers": 170,
@@ -18,7 +18,7 @@
   },
   "userHabits": {
     "groupCount": 41,
-    "avgGroupSize": 4.54,
+    "avgGroupSize": 4.56,
     "avgGroupsPerUser": 0.24,
     "creatorCount": 27,
     "avgGroupsPerCreator": 1.52,

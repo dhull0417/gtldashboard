@@ -309,7 +309,7 @@
     "date": "2026-10-19",
     "users": 0,
     "groups": 0,
-    "meetups": 103
+    "meetups": 102
   },
   {
     "date": "2026-10-20",
@@ -428,6 +428,12 @@
   {
     "date": "2026-11-08",
     "users": 1,
+    "groups": 0,
+    "meetups": 0
+  },
+  {
+    "date": "2026-11-09",
+    "users": 0,
     "groups": 0,
     "meetups": 0
   }

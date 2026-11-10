@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-10",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -2782,6 +2782,16 @@
           "name": "A League of Our Own"
         }
       ]
+    },
+    {
+      "id": "6af25cc656d42e917020b700",
+      "firstName": "Diana",
+      "lastInitial": "Z",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-09T23:52:38.423Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -3715,7 +3725,7 @@
           }
         ]
       },
-      "lastMessageAt": "2026-11-09T20:29:05.595Z"
+      "lastMessageAt": "2026-11-10T00:40:21.674Z"
     },
     {
       "id": "6aaee12dd060e59211ac28a3",

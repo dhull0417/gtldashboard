@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "signInMethods": {
     "google": 96,
     "email": 32,
@@ -13,15 +13,15 @@
   },
   "softIndicators": {
     "totalUsers": 172,
-    "zipCode": 163,
+    "zipCode": 164,
     "profilePicture": 172
   },
   "userHabits": {
-    "groupCount": 41,
-    "avgGroupSize": 4.61,
+    "groupCount": 42,
+    "avgGroupSize": 4.52,
     "avgGroupsPerUser": 0.24,
-    "creatorCount": 27,
-    "avgGroupsPerCreator": 1.52,
+    "creatorCount": 28,
+    "avgGroupsPerCreator": 1.5,
     "frequency": {
       "daily": 0,
       "weekly": 4,

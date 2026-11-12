@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -1651,13 +1651,23 @@
     },
     {
       "id": "6ab310c7f8cf2abf74fa60f0",
-      "firstName": "",
-      "lastInitial": null,
+      "firstName": "App",
+      "lastInitial": "R",
       "phone": null,
       "signInMethod": "email",
       "joinedAt": "2026-09-22T23:35:35.767Z",
-      "groupsCreated": [],
-      "groupsMember": []
+      "groupsCreated": [
+        {
+          "id": "6af51b29745bf9ad2b19e80e",
+          "name": "Weekend Hikers"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6af51b29745bf9ad2b19e80e",
+          "name": "Weekend Hikers"
+        }
+      ]
     },
     {
       "id": "6ab34c3ff602a24f4d2ea0b3",
@@ -4255,7 +4265,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-11T19:06:22.491Z"
+      "lastMessageAt": "2026-11-12T01:14:58.181Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",
@@ -4389,6 +4399,27 @@
         "routines": []
       },
       "lastMessageAt": "2026-11-08T19:00:26.887Z"
+    },
+    {
+      "id": "6af51b29745bf9ad2b19e80e",
+      "name": "Weekend Hikers",
+      "createdAt": "2026-11-12T01:49:29.785Z",
+      "owner": {
+        "id": "6ab310c7f8cf2abf74fa60f0",
+        "name": "App R."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6ab310c7f8cf2abf74fa60f0",
+          "name": "App R."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
     }
   ]
 }

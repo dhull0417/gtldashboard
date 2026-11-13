@@ -39,7 +39,7 @@
     "date": "2026-09-04",
     "users": 4,
     "groups": 3,
-    "meetups": 46
+    "meetups": 45
   },
   {
     "date": "2026-09-05",
@@ -309,13 +309,13 @@
     "date": "2026-10-19",
     "users": 0,
     "groups": 0,
-    "meetups": 4
+    "meetups": 3
   },
   {
     "date": "2026-10-20",
     "users": 11,
     "groups": 3,
-    "meetups": 101
+    "meetups": 100
   },
   {
     "date": "2026-10-21",
@@ -454,5 +454,11 @@
     "users": 1,
     "groups": 2,
     "meetups": 105
+  },
+  {
+    "date": "2026-11-13",
+    "users": 0,
+    "groups": 0,
+    "meetups": 0
   }
 ]

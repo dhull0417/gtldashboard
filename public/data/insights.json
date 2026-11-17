@@ -4,24 +4,24 @@
     "google": 98,
     "email": 33,
     "apple": 30,
-    "phone": 14,
+    "phone": 15,
     "unknown": 0
   },
   "permissions": {
-    "totalUsers": 175,
-    "notifications": 127
+    "totalUsers": 176,
+    "notifications": 130
   },
   "softIndicators": {
-    "totalUsers": 175,
-    "zipCode": 167,
-    "profilePicture": 175
+    "totalUsers": 176,
+    "zipCode": 168,
+    "profilePicture": 176
   },
   "userHabits": {
-    "groupCount": 43,
-    "avgGroupSize": 4.56,
+    "groupCount": 44,
+    "avgGroupSize": 4.55,
     "avgGroupsPerUser": 0.25,
-    "creatorCount": 28,
-    "avgGroupsPerCreator": 1.54,
+    "creatorCount": 29,
+    "avgGroupsPerCreator": 1.52,
     "frequency": {
       "daily": 0,
       "weekly": 4,

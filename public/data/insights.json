@@ -9,7 +9,7 @@
   },
   "permissions": {
     "totalUsers": 176,
-    "notifications": 130
+    "notifications": 131
   },
   "softIndicators": {
     "totalUsers": 176,
@@ -18,7 +18,7 @@
   },
   "userHabits": {
     "groupCount": 44,
-    "avgGroupSize": 4.55,
+    "avgGroupSize": 4.57,
     "avgGroupsPerUser": 0.25,
     "creatorCount": 29,
     "avgGroupsPerCreator": 1.52,

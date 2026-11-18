@@ -484,5 +484,11 @@
     "users": 1,
     "groups": 1,
     "meetups": 104
+  },
+  {
+    "date": "2026-11-18",
+    "users": 0,
+    "groups": 0,
+    "meetups": 0
   }
 ]

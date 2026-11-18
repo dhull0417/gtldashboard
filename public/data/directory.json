@@ -1487,6 +1487,10 @@
         {
           "id": "6abfe851bd1fc13996d6b2da",
           "name": "Priority"
+        },
+        {
+          "id": "6afe1b2dc06d99a93978c063",
+          "name": "G"
         }
       ],
       "groupsMember": [
@@ -1517,6 +1521,10 @@
         {
           "id": "6af537eb92609aadd9636142",
           "name": "Test"
+        },
+        {
+          "id": "6afe1b2dc06d99a93978c063",
+          "name": "G"
         }
       ]
     },
@@ -4648,6 +4656,27 @@
         "routines": []
       },
       "lastMessageAt": "2026-11-18T16:08:59.771Z"
+    },
+    {
+      "id": "6afe1b2dc06d99a93978c063",
+      "name": "G",
+      "createdAt": "2026-11-18T21:39:57.041Z",
+      "owner": {
+        "id": "6aab6a9ab0c680db7b092f08",
+        "name": "Dallin H."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6aab6a9ab0c680db7b092f08",
+          "name": "Dallin H."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
     }
   ]
 }

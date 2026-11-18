@@ -2731,16 +2731,25 @@
     },
     {
       "id": "6aeb963885d14fecbb02edc5",
-      "firstName": "connie",
+      "firstName": "Connie",
       "lastInitial": "C",
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-11-04T20:31:52.723Z",
-      "groupsCreated": [],
+      "groupsCreated": [
+        {
+          "id": "6afdc81f212fcb9d3680562d",
+          "name": "Connie’s test group"
+        }
+      ],
       "groupsMember": [
         {
           "id": "6afbd4595212ff6b81c4ee3b",
           "name": "Pickleball Ladies"
+        },
+        {
+          "id": "6afdc81f212fcb9d3680562d",
+          "name": "Connie’s test group"
         }
       ]
     },
@@ -3929,7 +3938,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-10-16T23:28:31.231Z"
+      "lastMessageAt": "2026-11-18T16:16:36.227Z"
     },
     {
       "id": "6ab40e51582e8074fcaba813",
@@ -4050,7 +4059,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-16T13:51:58.814Z"
+      "lastMessageAt": "2026-11-18T10:31:23.794Z"
     },
     {
       "id": "6ac9336817be7a289c4f7b08",
@@ -4397,7 +4406,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-17T13:43:30.347Z"
+      "lastMessageAt": "2026-11-18T13:58:50.835Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",
@@ -4598,7 +4607,7 @@
         },
         {
           "id": "6aeb963885d14fecbb02edc5",
-          "name": "connie C."
+          "name": "Connie C."
         },
         {
           "id": "6afbe4752d6992f55ee56a72",
@@ -4618,6 +4627,27 @@
         "routines": []
       },
       "lastMessageAt": null
+    },
+    {
+      "id": "6afdc81f212fcb9d3680562d",
+      "name": "Connie’s test group",
+      "createdAt": "2026-11-18T15:45:35.456Z",
+      "owner": {
+        "id": "6aeb963885d14fecbb02edc5",
+        "name": "Connie C."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6aeb963885d14fecbb02edc5",
+          "name": "Connie C."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": "2026-11-18T16:08:59.771Z"
     }
   ]
 }

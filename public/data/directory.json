@@ -1539,16 +1539,6 @@
       "groupsMember": []
     },
     {
-      "id": "6aab6ad1b0c680db7b092f1f",
-      "firstName": "No Profile",
-      "lastInitial": "P",
-      "phone": null,
-      "signInMethod": "apple",
-      "joinedAt": "2026-09-17T04:21:37.466Z",
-      "groupsCreated": [],
-      "groupsMember": []
-    },
-    {
       "id": "6aac1838cb0aca4cc9465c75",
       "firstName": "Amber",
       "lastInitial": "G",
@@ -2935,6 +2925,16 @@
           "name": "Pickleball Ladies"
         }
       ]
+    },
+    {
+      "id": "6aff53d30bef81f91f07380f",
+      "firstName": "Dallin",
+      "lastInitial": "H",
+      "phone": null,
+      "signInMethod": "apple",
+      "joinedAt": "2026-11-19T19:53:55.757Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -3503,7 +3503,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-12T16:13:08.930Z"
+      "lastMessageAt": "2026-11-19T16:09:59.235Z"
     },
     {
       "id": "6aa1ccbdc64503931302fb5c",
@@ -4061,6 +4061,10 @@
         {
           "id": "6a96a93f218bb8c9b7da6ee3",
           "name": "Ventures H."
+        },
+        {
+          "id": "6aff52680c8ccf3406c044d8",
+          "name": "(former member)"
         }
       ],
       "schedule": {
@@ -4414,7 +4418,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-18T13:58:50.835Z"
+      "lastMessageAt": "2026-11-19T20:01:52.212Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",

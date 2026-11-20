@@ -2933,8 +2933,18 @@
       "phone": null,
       "signInMethod": "apple",
       "joinedAt": "2026-11-19T19:53:55.757Z",
-      "groupsCreated": [],
-      "groupsMember": []
+      "groupsCreated": [
+        {
+          "id": "6aff9c306bcbb55889158b63",
+          "name": "Pickleball"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6aff9c306bcbb55889158b63",
+          "name": "Pickleball"
+        }
+      ]
     }
   ],
   "groups": [
@@ -4673,6 +4683,27 @@
       "members": [
         {
           "id": "6aab6a9ab0c680db7b092f08",
+          "name": "Dallin H."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6aff9c306bcbb55889158b63",
+      "name": "Pickleball",
+      "createdAt": "2026-11-20T01:02:40.308Z",
+      "owner": {
+        "id": "6aff53d30bef81f91f07380f",
+        "name": "Dallin H."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6aff53d30bef81f91f07380f",
           "name": "Dallin H."
         }
       ],

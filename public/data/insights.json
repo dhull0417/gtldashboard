@@ -9,7 +9,7 @@
   },
   "permissions": {
     "totalUsers": 177,
-    "notifications": 133
+    "notifications": 134
   },
   "softIndicators": {
     "totalUsers": 177,
@@ -17,11 +17,11 @@
     "profilePicture": 177
   },
   "userHabits": {
-    "groupCount": 46,
-    "avgGroupSize": 4.46,
-    "avgGroupsPerUser": 0.26,
-    "creatorCount": 30,
-    "avgGroupsPerCreator": 1.53,
+    "groupCount": 47,
+    "avgGroupSize": 4.38,
+    "avgGroupsPerUser": 0.27,
+    "creatorCount": 31,
+    "avgGroupsPerCreator": 1.52,
     "frequency": {
       "daily": 0,
       "weekly": 4,

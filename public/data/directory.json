@@ -1533,6 +1533,10 @@
         {
           "id": "6afe1b2dc06d99a93978c063",
           "name": "G"
+        },
+        {
+          "id": "6aff9c306bcbb55889158b63",
+          "name": "Pickleball"
         }
       ]
     },
@@ -4436,7 +4440,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-19T20:01:52.212Z"
+      "lastMessageAt": "2026-11-20T13:14:06.671Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",
@@ -4712,6 +4716,10 @@
       "members": [
         {
           "id": "6aff53d30bef81f91f07380f",
+          "name": "Dallin H."
+        },
+        {
+          "id": "6aab6a9ab0c680db7b092f08",
           "name": "Dallin H."
         }
       ],

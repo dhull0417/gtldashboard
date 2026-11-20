@@ -435,7 +435,7 @@
     "date": "2026-11-09",
     "users": 1,
     "groups": 0,
-    "meetups": 108
+    "meetups": 107
   },
   {
     "date": "2026-11-10",
@@ -494,6 +494,12 @@
   {
     "date": "2026-11-19",
     "users": 1,
+    "groups": 0,
+    "meetups": 0
+  },
+  {
+    "date": "2026-11-20",
+    "users": 0,
     "groups": 0,
     "meetups": 0
   }

@@ -3018,6 +3018,26 @@
           "name": "Weekend Hikers"
         }
       ]
+    },
+    {
+      "id": "6b03adfca6495ed062091a30",
+      "firstName": "Ethan",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-23T03:07:40.082Z",
+      "groupsCreated": [
+        {
+          "id": "6b03ae75b08774627f1c9e2c",
+          "name": "Basketball Chat"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6b03ae75b08774627f1c9e2c",
+          "name": "Basketball Chat"
+        }
+      ]
     }
   ],
   "groups": [
@@ -4788,7 +4808,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": null
+      "lastMessageAt": "2026-11-23T02:30:56.454Z"
     },
     {
       "id": "6affae9b4812937f204deccf",
@@ -4891,6 +4911,27 @@
         {
           "id": "6b012167fffc3b5c240a9e3f",
           "name": "Jay E."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6b03ae75b08774627f1c9e2c",
+      "name": "Basketball Chat",
+      "createdAt": "2026-11-23T03:09:41.681Z",
+      "owner": {
+        "id": "6b03adfca6495ed062091a30",
+        "name": "Ethan S."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6b03adfca6495ed062091a30",
+          "name": "Ethan S."
         }
       ],
       "schedule": {

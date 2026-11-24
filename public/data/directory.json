@@ -3038,6 +3038,26 @@
           "name": "Basketball Chat"
         }
       ]
+    },
+    {
+      "id": "6b050b1a06dfe66fdb71bca4",
+      "firstName": "Cheryl",
+      "lastInitial": "S",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-24T03:57:14.976Z",
+      "groupsCreated": [
+        {
+          "id": "6b050cfe609add0815ff3882",
+          "name": "Family History Play Group"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6b050cfe609add0815ff3882",
+          "name": "Family History Play Group"
+        }
+      ]
     }
   ],
   "groups": [
@@ -4932,6 +4952,27 @@
         {
           "id": "6b03adfca6495ed062091a30",
           "name": "Ethan S."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
+    },
+    {
+      "id": "6b050cfe609add0815ff3882",
+      "name": "Family History Play Group",
+      "createdAt": "2026-11-24T04:05:18.513Z",
+      "owner": {
+        "id": "6b050b1a06dfe66fdb71bca4",
+        "name": "Cheryl S."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6b050b1a06dfe66fdb71bca4",
+          "name": "Cheryl S."
         }
       ],
       "schedule": {

@@ -456,34 +456,8 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-09-01T10:30:23.065Z",
-      "groupsCreated": [
-        {
-          "id": "6abaf10948fa7dda7dedb43e",
-          "name": "Venture Group"
-        },
-        {
-          "id": "6ae3d017019b16876950840f",
-          "name": "Venture Group II"
-        }
-      ],
-      "groupsMember": [
-        {
-          "id": "6aaee12dd060e59211ac28a3",
-          "name": "Testing"
-        },
-        {
-          "id": "6abaf10948fa7dda7dedb43e",
-          "name": "Venture Group"
-        },
-        {
-          "id": "6abfe851bd1fc13996d6b2da",
-          "name": "Priority"
-        },
-        {
-          "id": "6ae3d017019b16876950840f",
-          "name": "Venture Group II"
-        }
-      ]
+      "groupsCreated": [],
+      "groupsMember": []
     },
     {
       "id": "6a96b223a340f7147074b769",
@@ -1517,10 +1491,6 @@
         {
           "id": "6a934f556dc7aa9cd637ce15",
           "name": "Sunday Food & Fun"
-        },
-        {
-          "id": "6abaf10948fa7dda7dedb43e",
-          "name": "Venture Group"
         },
         {
           "id": "6abfe851bd1fc13996d6b2da",
@@ -2980,19 +2950,11 @@
       "joinedAt": "2026-11-21T03:59:22.898Z",
       "groupsCreated": [
         {
-          "id": "6b011774315eb1b85465ef15",
-          "name": "Sample Group"
-        },
-        {
           "id": "6b0119856943159a098bf339",
           "name": "Dallin rocks"
         }
       ],
       "groupsMember": [
-        {
-          "id": "6b011774315eb1b85465ef15",
-          "name": "Sample Group"
-        },
         {
           "id": "6b0119856943159a098bf339",
           "name": "Dallin rocks"
@@ -3641,7 +3603,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-19T16:09:59.235Z"
+      "lastMessageAt": "2026-11-25T16:11:18.451Z"
     },
     {
       "id": "6aa1ccbdc64503931302fb5c",
@@ -4021,10 +3983,6 @@
         {
           "id": "6aab6a9ab0c680db7b092f08",
           "name": "Dallin H."
-        },
-        {
-          "id": "6a96a93f218bb8c9b7da6ee3",
-          "name": "Ventures H."
         }
       ],
       "schedule": {
@@ -4158,31 +4116,6 @@
       "lastMessageAt": "2026-10-09T14:32:00.478Z"
     },
     {
-      "id": "6abaf10948fa7dda7dedb43e",
-      "name": "Venture Group",
-      "createdAt": "2026-09-28T22:58:17.029Z",
-      "owner": {
-        "id": "6a96a93f218bb8c9b7da6ee3",
-        "name": "Ventures H."
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6a96a93f218bb8c9b7da6ee3",
-          "name": "Ventures H."
-        },
-        {
-          "id": "6aab6a9ab0c680db7b092f08",
-          "name": "Dallin H."
-        }
-      ],
-      "schedule": {
-        "startDate": null,
-        "routines": []
-      },
-      "lastMessageAt": null
-    },
-    {
       "id": "6abfe851bd1fc13996d6b2da",
       "name": "Priority",
       "createdAt": "2026-10-02T17:22:25.850Z",
@@ -4195,10 +4128,6 @@
         {
           "id": "6aab6a9ab0c680db7b092f08",
           "name": "Dallin H."
-        },
-        {
-          "id": "6a96a93f218bb8c9b7da6ee3",
-          "name": "Ventures H."
         },
         {
           "id": "6aff52680c8ccf3406c044d8",
@@ -4556,7 +4485,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-24T19:35:04.074Z"
+      "lastMessageAt": "2026-11-25T13:00:57.527Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",
@@ -4640,27 +4569,6 @@
         "routines": []
       },
       "lastMessageAt": "2026-10-27T23:24:21.462Z"
-    },
-    {
-      "id": "6ae3d017019b16876950840f",
-      "name": "Venture Group II",
-      "createdAt": "2026-10-29T23:00:39.306Z",
-      "owner": {
-        "id": "6a96a93f218bb8c9b7da6ee3",
-        "name": "Ventures H."
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6a96a93f218bb8c9b7da6ee3",
-          "name": "Ventures H."
-        }
-      ],
-      "schedule": {
-        "startDate": null,
-        "routines": []
-      },
-      "lastMessageAt": "2026-10-29T23:02:04.929Z"
     },
     {
       "id": "6aeb9c327a7647e8bfea907b",
@@ -4879,27 +4787,6 @@
         {
           "id": "6ab310c7f8cf2abf74fa60f0",
           "name": "App R."
-        }
-      ],
-      "schedule": {
-        "startDate": null,
-        "routines": []
-      },
-      "lastMessageAt": null
-    },
-    {
-      "id": "6b011774315eb1b85465ef15",
-      "name": "Sample Group",
-      "createdAt": "2026-11-21T04:00:52.378Z",
-      "owner": {
-        "id": "6b01171a80c9b881c29ebae1",
-        "name": "Devin T."
-      },
-      "moderators": [],
-      "members": [
-        {
-          "id": "6b01171a80c9b881c29ebae1",
-          "name": "Devin T."
         }
       ],
       "schedule": {

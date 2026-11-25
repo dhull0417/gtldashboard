@@ -17,11 +17,11 @@
     "profilePicture": 182
   },
   "userHabits": {
-    "groupCount": 54,
-    "avgGroupSize": 4,
-    "avgGroupsPerUser": 0.3,
-    "creatorCount": 35,
-    "avgGroupsPerCreator": 1.54,
+    "groupCount": 51,
+    "avgGroupSize": 4.12,
+    "avgGroupsPerUser": 0.28,
+    "creatorCount": 34,
+    "avgGroupsPerCreator": 1.5,
     "frequency": {
       "daily": 0,
       "weekly": 4,

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "users": [
     {
       "id": "6a92e8882651776280ed14c7",
@@ -446,16 +446,6 @@
       "phone": null,
       "signInMethod": "google",
       "joinedAt": "2026-09-01T04:45:39.259Z",
-      "groupsCreated": [],
-      "groupsMember": []
-    },
-    {
-      "id": "6a96a93f218bb8c9b7da6ee3",
-      "firstName": "Ventures",
-      "lastInitial": "H",
-      "phone": null,
-      "signInMethod": "google",
-      "joinedAt": "2026-09-01T10:30:23.065Z",
       "groupsCreated": [],
       "groupsMember": []
     },
@@ -3035,6 +3025,16 @@
           "name": "Family History Play Group"
         }
       ]
+    },
+    {
+      "id": "6b076de8c5743dadef7f37d3",
+      "firstName": "Dallin",
+      "lastInitial": "H",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-25T23:23:20.973Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -4138,7 +4138,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-18T10:31:23.794Z"
+      "lastMessageAt": "2026-11-26T00:40:14.132Z"
     },
     {
       "id": "6ac9336817be7a289c4f7b08",

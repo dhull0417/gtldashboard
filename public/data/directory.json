@@ -1457,10 +1457,6 @@
           "name": "Testing"
         },
         {
-          "id": "6abfe851bd1fc13996d6b2da",
-          "name": "Priority"
-        },
-        {
           "id": "6afe1b2dc06d99a93978c063",
           "name": "G"
         }
@@ -1481,10 +1477,6 @@
         {
           "id": "6a934f556dc7aa9cd637ce15",
           "name": "Sunday Food & Fun"
-        },
-        {
-          "id": "6abfe851bd1fc13996d6b2da",
-          "name": "Priority"
         },
         {
           "id": "6af537eb92609aadd9636142",
@@ -3027,14 +3019,48 @@
       ]
     },
     {
-      "id": "6b076de8c5743dadef7f37d3",
+      "id": "6b0827d494eb7bd4692ab184",
       "firstName": "Dallin",
       "lastInitial": "H",
       "phone": null,
       "signInMethod": "google",
-      "joinedAt": "2026-11-25T23:23:20.973Z",
-      "groupsCreated": [],
-      "groupsMember": []
+      "joinedAt": "2026-11-26T12:36:36.354Z",
+      "groupsCreated": [
+        {
+          "id": "6abfe851bd1fc13996d6b2da",
+          "name": "Priority"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6abfe851bd1fc13996d6b2da",
+          "name": "Priority"
+        },
+        {
+          "id": "6b083a197697f2deb6862730",
+          "name": "Hi"
+        }
+      ]
+    },
+    {
+      "id": "6b0839d01c2aa9aa8e52d97c",
+      "firstName": "WGU",
+      "lastInitial": "T",
+      "phone": null,
+      "signInMethod": "google",
+      "joinedAt": "2026-11-26T13:53:20.164Z",
+      "groupsCreated": [
+        {
+          "id": "6b083a197697f2deb6862730",
+          "name": "Hi"
+        }
+      ],
+      "groupsMember": [
+        {
+          "id": "6b083a197697f2deb6862730",
+          "name": "Hi"
+        }
+      ]
     }
   ],
   "groups": [
@@ -4120,25 +4146,25 @@
       "name": "Priority",
       "createdAt": "2026-10-02T17:22:25.850Z",
       "owner": {
-        "id": "6aab6a9ab0c680db7b092f08",
+        "id": "6b0827d494eb7bd4692ab184",
         "name": "Dallin H."
       },
       "moderators": [],
       "members": [
         {
-          "id": "6aab6a9ab0c680db7b092f08",
-          "name": "Dallin H."
-        },
-        {
           "id": "6aff52680c8ccf3406c044d8",
           "name": "(former member)"
+        },
+        {
+          "id": "6b0827d494eb7bd4692ab184",
+          "name": "Dallin H."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-26T00:40:14.132Z"
+      "lastMessageAt": "2026-11-26T13:50:20.884Z"
     },
     {
       "id": "6ac9336817be7a289c4f7b08",
@@ -4485,7 +4511,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-25T13:00:57.527Z"
+      "lastMessageAt": "2026-11-26T16:42:54.162Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",
@@ -4886,6 +4912,31 @@
         "routines": []
       },
       "lastMessageAt": null
+    },
+    {
+      "id": "6b083a197697f2deb6862730",
+      "name": "Hi",
+      "createdAt": "2026-11-26T13:54:33.846Z",
+      "owner": {
+        "id": "6b0839d01c2aa9aa8e52d97c",
+        "name": "WGU T."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6b0839d01c2aa9aa8e52d97c",
+          "name": "WGU T."
+        },
+        {
+          "id": "6b0827d494eb7bd4692ab184",
+          "name": "Dallin H."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": "2026-11-26T15:06:42.905Z"
     }
   ]
 }

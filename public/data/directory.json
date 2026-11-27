@@ -526,6 +526,10 @@
         {
           "id": "6ae116f2712a67929bbc523b",
           "name": "Ruth Payne Christmas Party"
+        },
+        {
+          "id": "6af537eb92609aadd9636142",
+          "name": "Test"
         }
       ]
     },
@@ -4654,7 +4658,12 @@
         "id": "6a92e8882651776280ed14c7",
         "name": "Devin P."
       },
-      "moderators": [],
+      "moderators": [
+        {
+          "id": "6aab6a9ab0c680db7b092f08",
+          "name": "Dallin H."
+        }
+      ],
       "members": [
         {
           "id": "6a92e8882651776280ed14c7",
@@ -4667,13 +4676,17 @@
         {
           "id": "6aab6a9ab0c680db7b092f08",
           "name": "Dallin H."
+        },
+        {
+          "id": "6a9767ee022cab8cbc23efcb",
+          "name": "Krystal P."
         }
       ],
       "schedule": {
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": null
+      "lastMessageAt": "2026-11-27T06:55:33.924Z"
     },
     {
       "id": "6afbd4595212ff6b81c4ee3b",

@@ -1543,11 +1543,16 @@
       "phone": "+13854829166",
       "signInMethod": "phone",
       "joinedAt": "2026-09-19T21:14:24.305Z",
-      "groupsCreated": [],
+      "groupsCreated": [
+        {
+          "id": "6b096c56c7694de61ce2840b",
+          "name": "H"
+        }
+      ],
       "groupsMember": [
         {
-          "id": "6b0119856943159a098bf339",
-          "name": "Dallin rocks"
+          "id": "6b096c56c7694de61ce2840b",
+          "name": "H"
         }
       ]
     },
@@ -3065,6 +3070,16 @@
           "name": "Hi"
         }
       ]
+    },
+    {
+      "id": "6b09cb14f5596b3e8d28bd74",
+      "firstName": "GroupThat",
+      "lastInitial": "T",
+      "phone": null,
+      "signInMethod": "email",
+      "joinedAt": "2026-11-27T18:25:24.211Z",
+      "groupsCreated": [],
+      "groupsMember": []
     }
   ],
   "groups": [
@@ -4168,7 +4183,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-26T13:50:20.884Z"
+      "lastMessageAt": "2026-11-27T14:25:59.884Z"
     },
     {
       "id": "6ac9336817be7a289c4f7b08",
@@ -4515,7 +4530,7 @@
         "startDate": null,
         "routines": []
       },
-      "lastMessageAt": "2026-11-26T16:42:54.162Z"
+      "lastMessageAt": "2026-11-27T17:58:02.480Z"
     },
     {
       "id": "6adfe9b33e47bba75b16f16f",
@@ -4847,10 +4862,6 @@
         {
           "id": "6b01171a80c9b881c29ebae1",
           "name": "Devin T."
-        },
-        {
-          "id": "6aaefb30b185770bfcf08a83",
-          "name": "Dallin H."
         }
       ],
       "schedule": {
@@ -4950,6 +4961,27 @@
         "routines": []
       },
       "lastMessageAt": "2026-11-26T15:06:42.905Z"
+    },
+    {
+      "id": "6b096c56c7694de61ce2840b",
+      "name": "H",
+      "createdAt": "2026-11-27T11:41:10.146Z",
+      "owner": {
+        "id": "6aaefb30b185770bfcf08a83",
+        "name": "Dallin H."
+      },
+      "moderators": [],
+      "members": [
+        {
+          "id": "6aaefb30b185770bfcf08a83",
+          "name": "Dallin H."
+        }
+      ],
+      "schedule": {
+        "startDate": null,
+        "routines": []
+      },
+      "lastMessageAt": null
     }
   ]
 }
